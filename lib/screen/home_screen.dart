@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(children: [
       Image.asset(
-        "assets/images/background.jpg",
+        "assets/images/background.png",
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         fit: BoxFit.fill,
@@ -34,12 +34,12 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   IconButton.outlined(
                       onPressed: () {
-                        changeLanguage(Locale('en'));
+                        changeLanguage(Locale('pl'));
                       },
                       icon: Icon(Icons.flag)),
                   IconButton.outlined(
                       onPressed: () {
-                        changeLanguage(Locale('pl'));
+                        changeLanguage(Locale('en'));
                       },
                       icon: Icon(Icons.ac_unit_outlined))
                 ],
@@ -52,11 +52,12 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Spacer(),
-                  ImageCard("assets/images/home-top-left.jpg", true, null,
+                  ImageCard(
+                      AppLocalizations.of(context)!.search, true, null,
                       "list-search"),
                   const Spacer(),
                   ImageCard(
-                      "assets/images/home-top-right.jpg", true, null, "list"),
+                      AppLocalizations.of(context)!.list, true, null, "list"),
                   Spacer(),
                 ],
               ),
@@ -65,10 +66,10 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Spacer(),
-                  ImageCard("assets/images/home-down-left.jpg", false,
+                  ImageCard(AppLocalizations.of(context)!.game, false,
                       "https://www.onet.pl", null),
                   Spacer(),
-                  ImageCard("assets/images/home-down-right.jpg", true, null,
+                  ImageCard(AppLocalizations.of(context)!.authors, true, null,
                       "author"),
                   Spacer(),
                 ],
@@ -103,8 +104,8 @@ class ImageCard extends StatelessWidget {
     return InkWell(
       child: Image(
         image: AssetImage(assetPath),
-        width: 90,
-        height: 90,
+        width: 175,
+        height: 175,
       ),
       onTap: () {
         if (isInnerNavigation) {

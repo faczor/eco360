@@ -8,6 +8,33 @@ class AppLocalizationsPl extends AppLocalizations {
   String get app_name => 'EKO360';
 
   @override
+  String get header_symbol_list => 'Lista symboli';
+
+  @override
+  String get header_symbol_details => 'Opis symbolu';
+
+  @override
+  String get header_authors => 'Autorzy';
+
+  @override
+  String get symbol_description => 'Opis: ';
+
+  @override
+  String get symbol_properties => 'Właściwości: ';
+
+  @override
+  String get symbol_usages => 'Zastosowania: ';
+
+  @override
+  String get symbol_tooltips => 'Wskazówki: ';
+
+  @override
+  String get symbol_facts => 'Ciekawostki: ';
+
+  @override
+  String get symbol_picture => 'Zdjęcia produktów wykonanych z opisanego materiału: ';
+
+  @override
   String get category_polimers => 'TWORZYWA POLIMEROWE/SZTUCZNE';
 
   @override
@@ -125,7 +152,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_title_cx98 => 'Szkło/różne metale';
 
   @override
-  String get symbol_description_pet01 => 'polimer z grupy poliestrów';
+  String get symbol_description_pet01 => 'polimer z grupy poliestrów.';
 
   @override
   String get symbol_description_hdpe02 => 'polimer etenu.';
@@ -137,13 +164,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_description_ldpe04 => 'polimer etenu.';
 
   @override
-  String get symbol_description_pp05 => 'polimer z grupy pololefin, otrzymywany z propenu.';
+  String get symbol_description_pp05 => 'polimer z grupy poliolefin, otrzymywany z propenu.';
 
   @override
   String get symbol_description_ps06 => 'polimer styrenu.';
 
   @override
-  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\nPrzykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\nPrzykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\nPrzykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n\n';
+  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n';
 
   @override
   String get symbol_description_pap20 => 'składa się ułożonych naprzemiennie i sklejonych ze sobą z kilku arkuszy papieru falistego oraz papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych. Mogą składać się z różnej ilości warstw.';
@@ -155,10 +182,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_description_pap22 => 'słysząc o papierze widzimy ryzę białych kartek, jednak w zależności od dodatków podczas produkcji papier może mieć różną strukturę.';
 
   @override
-  String get symbol_description_gl70 => 'na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty. \n\nZastosowania materiału po recyklingu: opakowania spożywczye, kafelki, blaty kuchenne, szkła optyczne.';
+  String get symbol_description_gl70 => 'na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaje przetopiona w hucie na nowe produkty.';
 
   @override
-  String get symbol_description_gl71 => 'zielony kolor szkła ma powodować jedynie efekt estetyczny, nie wpływa on w żaden sposób na przechowywane wewnątrz artykuły spożywcze. Na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty. \n\nZastosowania materiału po recyklingu: opakowania spożywcze, kafelki, blaty kuchenne.\n\n';
+  String get symbol_description_gl71 => 'zielony kolor szkła ma powodować jedynie efekt estetyczny, nie wpływa on w żaden sposób na przechowywane wewnątrz artykuły spożywcze. Na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty. \nZastosowania materiału po recyklingu: opakowania spożywcze, kafelki, blaty kuchenne.\n';
 
   @override
   String get symbol_description_gl72 => 'brązowy kolor szkła ogranicza dostęp światła, przez co w pewnym stopniu zabezpiecza znajdujące się wewnątrz napoje. Na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty.';
@@ -182,13 +209,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_description_tex61 => 'materiał roślinny, uzyskiwany z rośliny juta. Materiał ten ma specyficzną teksturę oraz zapach. Jest on w 100% biodegradowalny.';
 
   @override
-  String get symbol_description_cx81 => 'materiały wykonane z papieru powleczonego tworzywem sztucznym. Najczęściej stosowane są jako opakowania artykułów spożywczych np. mrożonek, czekolad, karmy dla zwierząt. \n\n';
+  String get symbol_description_cx81 => 'materiały wykonane z papieru powleczonego tworzywem sztucznym. Najczęściej stosowane są jako opakowania artykułów spożywczych np. mrożonek, czekolad, karmy dla zwierząt. \n';
 
   @override
   String get symbol_description_cx84 => 'opakowania oznaczone tym symbolem wykonane są z papieru powleczonego tworzywem sztucznym oraz aluminium. Są to opakowania soków, mleka, masła, czekolad, gum do żucia, kostek rosołowych itp.';
 
   @override
-  String get symbol_description_cx90 => 'opakowania oznaczone tym symbolem wykonane są z tworzywa sztucznego powleczonego aluminium.\n\n';
+  String get symbol_description_cx90 => 'opakowania oznaczone tym symbolem wykonane są z tworzywa sztucznego powleczonego aluminium.\n';
 
   @override
   String get symbol_properties_pet01 => 'termoplast, cięższy od wody, twardy, sztywny, odporny chemicznie i termicznie, nie chłonie wody, dielektryk (nie przewodzi prądu), nietoksyczny, niebiodegradowalny, ale biokompatybilny, czyli nie wywołuje reakcji alergicznych, przezroczysty.';
@@ -239,13 +266,22 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_usage_pap21 => 'opakowania (np. przekładek, separatorów wewnątrz kartonowych opakowań), opakowania o kształcie tuby i ozdobne opakowania prezentowe, okładki zeszytów oraz teczki szkolne.';
 
   @override
+  String get symbol_usage_pap22 => 'opakowania wykonane z papieru, gazety, katalogi, książki, zeszyty, dokumenty, papier pakowy, torebki papierowe.';
+
+  @override
+  String get symbol_usage_gl70 => 'opakowania spożywcze, kafelki, blaty kuchenne, szkła optyczne.';
+
+  @override
+  String get symbol_usage_gl71 => 'opakowania spożywcze, kafelki, blaty kuchenne.';
+
+  @override
   String get symbol_usage_gl72 => 'produkcja butelek do wód leczniczych oraz piwa.  Poza opakowaniami spożywczymi, z materiału po recyklingu możemy wytworzyć również np. kafelki, blaty kuchenne.';
 
   @override
-  String get symbol_usage_fe40 => 'karoseria samochodowa, statki, pokrycia dachów, opakowania np. puszki do konserw. ';
+  String get symbol_usage_fe40 => 'karoseria samochodowa, statki, pokrycia dachów, opakowania np. puszki do konserw.';
 
   @override
-  String get symbol_usage_alu41 => 'najczęściej spotykamy się z aluminiowymi opakowaniami na napoje, jedzenie oraz z folią aluminiową.\n\n';
+  String get symbol_usage_alu41 => 'najczęściej spotykamy się z aluminiowymi opakowaniami na napoje, jedzenie oraz z folią aluminiową.';
 
   @override
   String get symbol_usage_for50 => 'produkcja płyt wiórowych oraz mebli, jako materiał opałowy, w ogrodnictwie oraz jako podkład dla zwierząt.';
@@ -254,7 +290,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_usage_for51 => 'zatykanie butelek, tablice korkowe, podkładki, artykuły dekoracyjne, torebki, wypełniacze, okładziny podłogowe oraz ścienne.';
 
   @override
-  String get symbol_usage_tex60 => 'ubrania, opatrunki i ręczniki. ';
+  String get symbol_usage_tex60 => 'ubrania, opatrunki i ręczniki.';
 
   @override
   String get symbol_usage_tex61 => 'worki, ale również ozdoby, dodatki do wystroju wnętrz.';
@@ -263,7 +299,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_facts_ps06 => 'często używa się również jego spienionej formy – styropianu. Wykorzystuje się go przy pakowaniu do zabezpieczenia, opakowań do żywności oraz w budownictwie.';
 
   @override
-  String get symbol_facts_pap20 => 'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.\n\n';
+  String get symbol_facts_pap20 => 'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.\n';
 
   @override
   String get symbol_facts_fe40 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.';
@@ -275,7 +311,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_tooltips_pap21 => 'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.';
 
   @override
-  String get symbol_tooltips_pap22 => 'recyklingowi podlegają opakowania wykonane z papieru, gazety, katalogi, książki, zeszyty, dokumenty, papier pakowy, torebki papierowe. Pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.';
+  String get symbol_tooltips_pap22 => 'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.';
 
   @override
   String get symbol_tooltips_gl70 => 'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.';
@@ -285,6 +321,9 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get symbol_tooltips_gl72 => 'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.e';
+
+  @override
+  String get symbol_tooltips_alu40 => 'before throwing steel packaging into the yellow container, remove labels and food residues. Remember that needles and cans of construction, chemical and hazardous materials are not suitable for recycling.';
 
   @override
   String get symbol_tooltips_alu41 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.';
@@ -327,4 +366,19 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get symbol_tooltips_cx98 => 'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.';
+
+  @override
+  String get search => 'assets/images/home-top-left.png';
+
+  @override
+  String get list => 'assets/images/home-top-right.png';
+
+  @override
+  String get game => 'assets/images/home-down-left.png';
+
+  @override
+  String get authors => 'assets/images/home-down-right.png';
+
+  @override
+  String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek.';
 }

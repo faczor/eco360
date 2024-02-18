@@ -24,7 +24,7 @@ class SearchTextField extends StatelessWidget {
       decoration: const InputDecoration(
         filled: true,
         prefixIcon: Icon(Icons.search, color:  Color.fromARGB(255, 252, 141, 75),),
-        fillColor: Color.fromARGB(255, 127, 175, 90),
+        fillColor: Color.fromARGB(255, 172, 211, 127),
         focusedBorder: UnderlineInputBorder(
           borderSide:
               BorderSide(color: Color.fromARGB(255, 252, 141, 75), width: 2.0),

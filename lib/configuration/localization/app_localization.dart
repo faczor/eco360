@@ -99,647 +99,755 @@ abstract class AppLocalizations {
   /// **'ECO360'**
   String get app_name;
 
+  /// No description provided for @header_symbol_list.
+  ///
+  /// In en, this message translates to:
+  /// **'Symbol list'**
+  String get header_symbol_list;
+
+  /// No description provided for @header_symbol_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Symbol details'**
+  String get header_symbol_details;
+
+  /// No description provided for @header_authors.
+  ///
+  /// In en, this message translates to:
+  /// **'Authors'**
+  String get header_authors;
+
+  /// No description provided for @symbol_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description: '**
+  String get symbol_description;
+
+  /// No description provided for @symbol_properties.
+  ///
+  /// In en, this message translates to:
+  /// **'Properties: '**
+  String get symbol_properties;
+
+  /// No description provided for @symbol_usages.
+  ///
+  /// In en, this message translates to:
+  /// **'Usages: '**
+  String get symbol_usages;
+
+  /// No description provided for @symbol_tooltips.
+  ///
+  /// In en, this message translates to:
+  /// **'Tooltips: '**
+  String get symbol_tooltips;
+
+  /// No description provided for @symbol_facts.
+  ///
+  /// In en, this message translates to:
+  /// **'Facts: '**
+  String get symbol_facts;
+
+  /// No description provided for @symbol_picture.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos of products made of the described material: '**
+  String get symbol_picture;
+
   /// No description provided for @category_polimers.
   ///
   /// In en, this message translates to:
-  /// **'TWORZYWA POLIMEROWE/SZTUCZNE'**
+  /// **'POLYMER/PLASTICS'**
   String get category_polimers;
 
   /// No description provided for @category_paper.
   ///
   /// In en, this message translates to:
-  /// **'PAPIER I TEKTURA'**
+  /// **'PAPER AND CARDBOARD'**
   String get category_paper;
 
   /// No description provided for @category_glass.
   ///
   /// In en, this message translates to:
-  /// **'SZKŁO'**
+  /// **'GLASS'**
   String get category_glass;
 
   /// No description provided for @category_steel.
   ///
   /// In en, this message translates to:
-  /// **'STAL I ALUMINIUM'**
+  /// **'STEEL AND ALUMINUM'**
   String get category_steel;
 
   /// No description provided for @category_wood.
   ///
   /// In en, this message translates to:
-  /// **'DREWNO I KOREK'**
+  /// **'WOOD AND CORK'**
   String get category_wood;
 
   /// No description provided for @category_cotton.
   ///
   /// In en, this message translates to:
-  /// **'BAWEŁNA I JUTA'**
+  /// **'COTTON AND JUTE'**
   String get category_cotton;
 
   /// No description provided for @category_mixed.
   ///
   /// In en, this message translates to:
-  /// **'WIELOMATERIAŁOWE'**
+  /// **'COMPOSITE'**
   String get category_mixed;
 
   /// No description provided for @symbol_title_pet01.
   ///
   /// In en, this message translates to:
-  /// **'Politereftalan etylenu'**
+  /// **'Polyethylene terephthalate'**
   String get symbol_title_pet01;
 
   /// No description provided for @symbol_title_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'Polietylen dużej gęstości'**
+  /// **'High density polyethylene'**
   String get symbol_title_hdpe02;
 
   /// No description provided for @symbol_title_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'Polichlorek winylu'**
+  /// **'Polyvinyl chloride'**
   String get symbol_title_pvc03;
 
   /// No description provided for @symbol_title_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'Polietylen małej gęstości'**
+  /// **'Low density polyethylene'**
   String get symbol_title_ldpe04;
 
   /// No description provided for @symbol_title_pp05.
   ///
   /// In en, this message translates to:
-  /// **'Polipropylen'**
+  /// **'Polypropylene'**
   String get symbol_title_pp05;
 
   /// No description provided for @symbol_title_ps06.
   ///
   /// In en, this message translates to:
-  /// **'Polistyren'**
+  /// **'Polystyrene'**
   String get symbol_title_ps06;
 
   /// No description provided for @symbol_title_inne07.
   ///
   /// In en, this message translates to:
-  /// **'Inne'**
+  /// **'Other'**
   String get symbol_title_inne07;
 
   /// No description provided for @symbol_title_pap20.
   ///
   /// In en, this message translates to:
-  /// **'Tektura falista'**
+  /// **'Corrugated cardboard'**
   String get symbol_title_pap20;
 
   /// No description provided for @symbol_title_pap21.
   ///
   /// In en, this message translates to:
-  /// **'Tektura płaska'**
+  /// **'Flat cardboard'**
   String get symbol_title_pap21;
 
   /// No description provided for @symbol_title_pap22.
   ///
   /// In en, this message translates to:
-  /// **'Papier'**
+  /// **'Paper'**
   String get symbol_title_pap22;
 
   /// No description provided for @symbol_title_gl70.
   ///
   /// In en, this message translates to:
-  /// **'Szkło bezbarwne'**
+  /// **'Colorless glass'**
   String get symbol_title_gl70;
 
   /// No description provided for @symbol_title_gl71.
   ///
   /// In en, this message translates to:
-  /// **'Szkło zielone'**
+  /// **'Green Glass'**
   String get symbol_title_gl71;
 
   /// No description provided for @symbol_title_gl72.
   ///
   /// In en, this message translates to:
-  /// **'Szkło brązowe'**
+  /// **'Brown Glass'**
   String get symbol_title_gl72;
 
   /// No description provided for @symbol_title_fe40.
   ///
   /// In en, this message translates to:
-  /// **'Stal'**
+  /// **'Steel'**
   String get symbol_title_fe40;
 
   /// No description provided for @symbol_title_alu41.
   ///
   /// In en, this message translates to:
-  /// **'Aluminium'**
+  /// **'Aluminum'**
   String get symbol_title_alu41;
 
   /// No description provided for @symbol_title_for50.
   ///
   /// In en, this message translates to:
-  /// **'Drewno'**
+  /// **'Wood'**
   String get symbol_title_for50;
 
   /// No description provided for @symbol_title_for51.
   ///
   /// In en, this message translates to:
-  /// **'Korek'**
+  /// **'Cork'**
   String get symbol_title_for51;
 
   /// No description provided for @symbol_title_tex60.
   ///
   /// In en, this message translates to:
-  /// **'Bawełna'**
+  /// **'Cotton'**
   String get symbol_title_tex60;
 
   /// No description provided for @symbol_title_tex61.
   ///
   /// In en, this message translates to:
-  /// **'Juta'**
+  /// **'Jute'**
   String get symbol_title_tex61;
 
   /// No description provided for @symbol_title_cx80.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/różne metale'**
+  /// **'Paper and cardboard/various metals'**
   String get symbol_title_cx80;
 
   /// No description provided for @symbol_title_cx81.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/plastik'**
+  /// **'Paper and cardboard/plastic'**
   String get symbol_title_cx81;
 
   /// No description provided for @symbol_title_cx82.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/aluminium'**
+  /// **'Paper and cardboard/aluminum'**
   String get symbol_title_cx82;
 
   /// No description provided for @symbol_title_cx83.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/blacha'**
+  /// **'Paper and cardboard/sheet metal'**
   String get symbol_title_cx83;
 
   /// No description provided for @symbol_title_cx84.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/plastik/aluminium'**
+  /// **'Paper and cardboard/plastic/aluminum'**
   String get symbol_title_cx84;
 
   /// No description provided for @symbol_title_cx85.
   ///
   /// In en, this message translates to:
-  /// **'Papier i tektura/plastik/aluminium/blacha'**
+  /// **'Paper and cardboard/plastic/aluminum/sheet metal'**
   String get symbol_title_cx85;
 
   /// No description provided for @symbol_title_cx90.
   ///
   /// In en, this message translates to:
-  /// **'Plastik/aluminium'**
+  /// **'Plastic/aluminum'**
   String get symbol_title_cx90;
 
   /// No description provided for @symbol_title_cx91.
   ///
   /// In en, this message translates to:
-  /// **'Plastik/blacha'**
+  /// **'Plastic/sheet metal'**
   String get symbol_title_cx91;
 
   /// No description provided for @symbol_title_cx92.
   ///
   /// In en, this message translates to:
-  /// **'Plastik/różne metale'**
+  /// **'Plastic/various metals'**
   String get symbol_title_cx92;
 
   /// No description provided for @symbol_title_cx95.
   ///
   /// In en, this message translates to:
-  /// **'Szkło/plastik'**
+  /// **'Glass/plastic'**
   String get symbol_title_cx95;
 
   /// No description provided for @symbol_title_cx96.
   ///
   /// In en, this message translates to:
-  /// **'Szkło/aluminium'**
+  /// **'Glass/aluminum'**
   String get symbol_title_cx96;
 
   /// No description provided for @symbol_title_cx97.
   ///
   /// In en, this message translates to:
-  /// **'Szkło/blacha'**
+  /// **'Glass/sheet metal'**
   String get symbol_title_cx97;
 
   /// No description provided for @symbol_title_cx98.
   ///
   /// In en, this message translates to:
-  /// **'Szkło/różne metale'**
+  /// **'Glass/various metals'**
   String get symbol_title_cx98;
 
   /// No description provided for @symbol_description_pet01.
   ///
   /// In en, this message translates to:
-  /// **'polimer z grupy poliestrów'**
+  /// **'polymer from the polyester group.'**
   String get symbol_description_pet01;
 
   /// No description provided for @symbol_description_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'polimer etenu.'**
+  /// **'ethylene polymer.'**
   String get symbol_description_hdpe02;
 
   /// No description provided for @symbol_description_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'polimer z grupy polimerów winylowych, otrzymywany w chlorku winylu.'**
+  /// **'polymer from the vinyl polymer group, obtained in vinyl chloride.'**
   String get symbol_description_pvc03;
 
   /// No description provided for @symbol_description_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'polimer etenu.'**
+  /// **'ethylene polymer.'**
   String get symbol_description_ldpe04;
 
   /// No description provided for @symbol_description_pp05.
   ///
   /// In en, this message translates to:
-  /// **'polimer z grupy pololefin, otrzymywany z propenu.'**
+  /// **'polymer from the polyolefin group, obtained from propene.'**
   String get symbol_description_pp05;
 
   /// No description provided for @symbol_description_ps06.
   ///
   /// In en, this message translates to:
-  /// **'polimer styrenu.'**
+  /// **'styrene polymer.'**
   String get symbol_description_ps06;
 
   /// No description provided for @symbol_description_inne07.
   ///
   /// In en, this message translates to:
-  /// **'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\nPrzykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\nPrzykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\nPrzykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n'**
+  /// **'all polymeric materials not included as separate symbols were considered other. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n '**
   String get symbol_description_inne07;
 
   /// No description provided for @symbol_description_pap20.
   ///
   /// In en, this message translates to:
-  /// **'składa się ułożonych naprzemiennie i sklejonych ze sobą z kilku arkuszy papieru falistego oraz papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych. Mogą składać się z różnej ilości warstw.'**
+  /// **'consists of several sheets of corrugated paper and flat paper made of kraft paper, arranged alternately and glued together. This paper is made from waste paper or virgin fibers. They may consist of a different number of layers.'**
   String get symbol_description_pap20;
 
   /// No description provided for @symbol_description_pap21.
   ///
   /// In en, this message translates to:
-  /// **'są to sklejone ze sobą arkusze papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych.'**
+  /// **'sheets of flat paper made of kraft paper glued together. This paper is made from waste paper or virgin fibers.'**
   String get symbol_description_pap21;
 
   /// No description provided for @symbol_description_pap22.
   ///
   /// In en, this message translates to:
-  /// **'słysząc o papierze widzimy ryzę białych kartek, jednak w zależności od dodatków podczas produkcji papier może mieć różną strukturę.'**
+  /// **'when we hear about paper, we see a ream of white sheets of paper, but depending on the additives used during production, the paper may have a different structure.'**
   String get symbol_description_pap22;
 
   /// No description provided for @symbol_description_gl70.
   ///
   /// In en, this message translates to:
-  /// **'na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty. \nZastosowania materiału po recyklingu: opakowania spożywczye, kafelki, blaty kuchenne, szkła optyczne.'**
+  /// **'at the landfill, the cullet is sorted according to color, which is then melted down in a glassworks into new products.'**
   String get symbol_description_gl70;
 
   /// No description provided for @symbol_description_gl71.
   ///
   /// In en, this message translates to:
-  /// **'zielony kolor szkła ma powodować jedynie efekt estetyczny, nie wpływa on w żaden sposób na przechowywane wewnątrz artykuły spożywcze. Na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty. \nZastosowania materiału po recyklingu: opakowania spożywcze, kafelki, blaty kuchenne.\n'**
+  /// **'the green color of the glass is intended only for an aesthetic effect and does not in any way affect the food stored inside. At the landfill, the cullet is sorted according to color, which is then melted down in a glassworks into new products.'**
   String get symbol_description_gl71;
 
   /// No description provided for @symbol_description_gl72.
   ///
   /// In en, this message translates to:
-  /// **'brązowy kolor szkła ogranicza dostęp światła, przez co w pewnym stopniu zabezpiecza znajdujące się wewnątrz napoje. Na wysypisku stłuczka jest segregowana względem kolorów, która następnie zostaję przetopiona w hucie na nowe produkty.'**
+  /// **'the brown color of the glass limits the access of light, thus protecting the drinks to some extent. At the landfill, the cullet is sorted according to color, which is then melted down in a glassworks into new products.'**
   String get symbol_description_gl72;
 
   /// No description provided for @symbol_description_fe40.
   ///
   /// In en, this message translates to:
-  /// **'stal jest to stop żelaza z węglem, który zostaje obrobiony cieplnie.'**
+  /// **'steel is an alloy of iron and carbon that is heat treated.'**
   String get symbol_description_fe40;
 
   /// No description provided for @symbol_description_alu41.
   ///
   /// In en, this message translates to:
-  /// **'aluminium jest bardzo dobrym materiałem umożliwiającym ponowne przetworzenie i wykorzystanie wtórne.'**
+  /// **'aluminum is a very good material that allows for reprocessing and secondary use.'**
   String get symbol_description_alu41;
 
   /// No description provided for @symbol_description_for50.
   ///
   /// In en, this message translates to:
-  /// **'odpady drewniane to pozostałości po jego obróbce, ale także zużyte wyroby wykonane z drewna. Ponowne wykorzystanie drewna pozwala na redukcję wycinania drzew. '**
+  /// **'wood waste includes residues from its processing, but also used products made of wood. Reusing wood helps reduce the cutting down of trees.'**
   String get symbol_description_for50;
 
   /// No description provided for @symbol_description_for51.
   ///
   /// In en, this message translates to:
-  /// **'korek jest naturalnym materiałem, uzyskuje się go z kory dębu korkowego. Jego zbiory nie są łatwe ani częste, dlatego bardzo ważny jest ich recykling. '**
+  /// **'cork is a natural material, obtained from the bark of the cork oak. Harvesting it is not easy or frequent, so recycling it is very important.'**
   String get symbol_description_for51;
 
   /// No description provided for @symbol_description_tex60.
   ///
   /// In en, this message translates to:
-  /// **'bawełna jest włóknem otaczającym nasiona rośliny - bawełny. Odpady bawełniane są to skrawki i resztki pozostałe przy procesie produkcji oraz zużyte produkty wykonane z bawełny. W drugim przypadku problemem jest segregacja ze względu na kolor.'**
+  /// **'cotton is the fiber surrounding the seeds of the cotton plant. Cotton waste is scraps and leftovers remaining during the production process and used cotton products. In the second case, the problem is segregation by color.'**
   String get symbol_description_tex60;
 
   /// No description provided for @symbol_description_tex61.
   ///
   /// In en, this message translates to:
-  /// **'materiał roślinny, uzyskiwany z rośliny juta. Materiał ten ma specyficzną teksturę oraz zapach. Jest on w 100% biodegradowalny.'**
+  /// **'plant material obtained from the jute plant. This material has a specific texture and smell. It is 100% biodegradable. It is used to make packaging, bags, but also decorations and interior design accessories.'**
   String get symbol_description_tex61;
 
   /// No description provided for @symbol_description_cx81.
   ///
   /// In en, this message translates to:
-  /// **'materiały wykonane z papieru powleczonego tworzywem sztucznym. Najczęściej stosowane są jako opakowania artykułów spożywczych np. mrożonek, czekolad, karmy dla zwierząt. \n'**
+  /// **'materials made of plastic-coated paper. They are most often used as packaging for food products, e.g. frozen foods, chocolate, animal food.'**
   String get symbol_description_cx81;
 
   /// No description provided for @symbol_description_cx84.
   ///
   /// In en, this message translates to:
-  /// **'opakowania oznaczone tym symbolem wykonane są z papieru powleczonego tworzywem sztucznym oraz aluminium. Są to opakowania soków, mleka, masła, czekolad, gum do żucia, kostek rosołowych itp.'**
+  /// **'packaging marked with this symbol is made of plastic-coated paper and aluminum. These are packages of juices, milk, butter, chocolate, chewing gum, etc.'**
   String get symbol_description_cx84;
 
   /// No description provided for @symbol_description_cx90.
   ///
   /// In en, this message translates to:
-  /// **'opakowania oznaczone tym symbolem wykonane są z tworzywa sztucznego powleczonego aluminium.\n'**
+  /// **'packaging marked with this symbol is made of aluminum-coated plastic.'**
   String get symbol_description_cx90;
 
   /// No description provided for @symbol_properties_pet01.
   ///
   /// In en, this message translates to:
-  /// **'termoplast, cięższy od wody, twardy, sztywny, odporny chemicznie i termicznie, nie chłonie wody, dielektryk (nie przewodzi prądu), nietoksyczny, niebiodegradowalny, ale biokompatybilny, czyli nie wywołuje reakcji alergicznych, przezroczysty.'**
+  /// **'thermoplastic, heavier than water, hard, stiff, chemically and thermally resistant, does not absorb water, dielectric (does not conduct electricity), non-toxic, non-biodegradable, but biocompatible, i.e. does not cause allergic reactions, transparent.'**
   String get symbol_properties_pet01;
 
   /// No description provided for @symbol_properties_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'termoplast, lżejszy od wody, twardy, sztywny, nietoksyczny, tani, kolor mlecznobiały, odporny na niskie temperatury, trudno się klei i zdobi.'**
+  /// **'thermoplastic, lighter than water, hard, stiff, non-toxic, cheap, milky white color, resistant to low temperatures, difficult to glue and decorate.'**
   String get symbol_properties_hdpe02;
 
   /// No description provided for @symbol_properties_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'termoplast, cięższy od wody, biały proszek, odporny chemicznie, ulega degradacji już w temperaturze 170ºC i wtedy jest toksyczny, wytrzymały, może być elastyczny i ciągliwy lub twardy i kruchy w zależności od metody otrzymywania.'**
+  /// **'thermoplastic, heavier than water, white powder, chemically resistant, degrades already at 170ºC and is then toxic, durable, can be flexible and malleable or hard and brittle depending on the method of production.'**
   String get symbol_properties_pvc03;
 
   /// No description provided for @symbol_properties_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'termoplast, lżejszy od wody, miękki, przezroczysty, nietoksyczny, tani, odporny na niskie temperatury, nieodporny na podwyższoną temperaturę, nieodporny na obciążenia, trudno się klei i zdobi.'**
+  /// **'thermoplastic, lighter than water, soft, transparent, non-toxic, cheap, resistant to low temperatures, not resistant to elevated temperatures, not resistant to loads, difficult to glue and decorate.'**
   String get symbol_properties_ldpe04;
 
   /// No description provided for @symbol_properties_pp05.
   ///
   /// In en, this message translates to:
-  /// **'najlżejsze tworzywo termoplastyczne, odporne chemicznie i termicznie, twardy, sztywny, nietoksyczny, kurczy się.'**
+  /// **'the lightest thermoplastic material, chemically and thermally resistant, hard, stiff, non-toxic, shrinkable.'**
   String get symbol_properties_pp05;
 
   /// No description provided for @symbol_properties_ps06.
   ///
   /// In en, this message translates to:
-  /// **'termoplast, niebiodegradowalny o wysokiej biokompatybilności, bezbarwny, twardy i kruchy, można zastosować barwniki.'**
+  /// **'thermoplastic, non-biodegradable with high biocompatibility, colorless, hard and brittle, dyes can be used.'**
   String get symbol_properties_ps06;
 
   /// No description provided for @symbol_properties_pap20.
   ///
   /// In en, this message translates to:
-  /// **'biodegradowalny i bezpieczny, może mieć kontakt z produktami spożywczymi.'**
+  /// **'biodegradable and safe, can come into contact with food products.'**
   String get symbol_properties_pap20;
 
   /// No description provided for @symbol_properties_pap21.
   ///
   /// In en, this message translates to:
-  /// **'biodegradowalny i bezpieczny, może mieć kontakt z produktami spożywczymi, w kolorach: białym, szarym lub brązowym, może zostać pokryta drukiem lub zostać zalaminowana folią wykonaną z PE lub PP. '**
+  /// **'biodegradable and safe, can come into contact with food products, in the following colors: white, gray or brown, can be covered with print or laminated with PE or PP foil.'**
   String get symbol_properties_pap21;
 
   /// No description provided for @symbol_usage_pet01.
   ///
   /// In en, this message translates to:
-  /// **'medycyna (protezy kości sklepienia czaszki, protezy naczyń krwionośnych, oznaczników chirurgicznych do podtrzymywania narządów wypreparowanych w czasie operacji, protezy więzadeł i ścięgien, elementów korpusu sztucznego serca), produkcja opakowań (np. butelek na wodę, kubeczków do jogurtów, folii, tacek), włókiennictwo (przędza dywanowa, włókna na tekstylia, włókna izolacyjne, polar) oraz budownictwo (płyty termoizolacyjne, płyty budowlane).'**
+  /// **'medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), production of packaging (e.g. water bottles, yogurt cups, foil, trays), textile industry (carpet yarn, textile fibers, insulating fibers, fleece) and construction (thermal insulation boards, building boards).'**
   String get symbol_usage_pet01;
 
   /// No description provided for @symbol_usage_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'rury ciśnieniowe, złączki do rur, naczynia laboratoryjne, pojemniki, butelki, płyty, opakowania.'**
+  /// **'pressure pipes, pipe fittings, laboratory vessels, containers, bottles, plates, packaging.'**
   String get symbol_usage_hdpe02;
 
   /// No description provided for @symbol_usage_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'budownictwo (rury, kable, okleiny meblowe, wykładziny), medycyna (strzykawki, cewniki, dreny, opakowania, ustniki do podawania powietrza, wzierniki laryngologiczne, elementy sztucznego serca, żyły krwionośne, implanty uszu).'**
+  /// **'construction (pipes, cables, furniture veneers, carpets), medicine (syringes, catheters, drains, packaging, mouthpieces for administering air, laryngological specula, elements of an artificial heart, blood veins, ear implants).'**
   String get symbol_usage_pvc03;
 
   /// No description provided for @symbol_usage_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **' folie, opakowania, folie termokurczliwe, rękawice jednorazowe.'**
+  /// **'foils, packaging, heat-shrinkable foils,b single-use gloves.'**
   String get symbol_usage_ldpe04;
 
   /// No description provided for @symbol_usage_pp05.
   ///
   /// In en, this message translates to:
-  /// **'przemysł włókienniczy (włókna, tkaniny, sznury, sieci, włókniny), przemysł medyczny (siatki chirurgiczne, taśmy urologiczne, protezy kości sklepienia czaszki, protezy kości oczodołu, siatki chirurgiczne do operacyjnego leczenia przepuklin, części mikroskopowe, strzykawki, rozgałęźniki i łączniki do drenów, ściany namiotów tlenowych, probówki na krew), opakowania i materiały rolnicze.'**
+  /// **'textile industry (fibers, fabrics, cords, nets, non-woven fabrics), medical industry (surgical meshes, urological tapes, cranial vault bone prostheses, orbital bone prostheses, surgical meshes for surgical treatment of hernias, microscopic parts, syringes, manifolds and connectors for drains, walls of oxygen tents, blood test tubes), packaging and agricultural materials.'**
   String get symbol_usage_pp05;
 
   /// No description provided for @symbol_usage_ps06.
   ///
   /// In en, this message translates to:
-  /// **'produkcja opakowań suchych produktów, pokrywek kubków jednorazowych, pudełek, sztucznej biżuterii, zabawek.'**
+  /// **'production of packaging for dry products, lids for disposable cups, boxes, artificial jewelry, toys.'**
   String get symbol_usage_ps06;
 
   /// No description provided for @symbol_usage_pap20.
   ///
   /// In en, this message translates to:
-  /// **'transport oraz przechowywanie, pakowanie, separowanie produktów, materiał ochronny podczas remontów, element konstrukcji w pracach plastycznych.'**
+  /// **'transport and storage, packaging, product separation, protective material during renovations, construction element in artistic works.'**
   String get symbol_usage_pap20;
 
   /// No description provided for @symbol_usage_pap21.
   ///
   /// In en, this message translates to:
-  /// **'opakowania (np. przekładek, separatorów wewnątrz kartonowych opakowań), opakowania o kształcie tuby i ozdobne opakowania prezentowe, okładki zeszytów oraz teczki szkolne.'**
+  /// **'packaging (e.g. dividers, separators inside cardboard packaging), tube-shaped packaging and decorative gift packaging, notebook covers and school folders.'**
   String get symbol_usage_pap21;
+
+  /// No description provided for @symbol_usage_pap22.
+  ///
+  /// In en, this message translates to:
+  /// **'packaging made of paper, newspapers, catalogues, books, notebooks, documents, wrapping paper, paper bags.'**
+  String get symbol_usage_pap22;
+
+  /// No description provided for @symbol_usage_gl70.
+  ///
+  /// In en, this message translates to:
+  /// **'food packaging, tiles, kitchen countertops, optical glasses.'**
+  String get symbol_usage_gl70;
+
+  /// No description provided for @symbol_usage_gl71.
+  ///
+  /// In en, this message translates to:
+  /// **'food packaging, tiles, kitchen countertops.'**
+  String get symbol_usage_gl71;
 
   /// No description provided for @symbol_usage_gl72.
   ///
   /// In en, this message translates to:
-  /// **'produkcja butelek do wód leczniczych oraz piwa.  Poza opakowaniami spożywczymi, z materiału po recyklingu możemy wytworzyć również np. kafelki, blaty kuchenne.'**
+  /// **'production of bottles for medicinal waters and beer. In addition to food packaging, we can also use recycled material to produce, for example, tiles and kitchen countertops.'**
   String get symbol_usage_gl72;
 
   /// No description provided for @symbol_usage_fe40.
   ///
   /// In en, this message translates to:
-  /// **'karoseria samochodowa, statki, pokrycia dachów, opakowania np. puszki do konserw. '**
+  /// **'car bodywork, ships, roof coverings, packaging, e.g. canning cans.'**
   String get symbol_usage_fe40;
 
   /// No description provided for @symbol_usage_alu41.
   ///
   /// In en, this message translates to:
-  /// **'najczęściej spotykamy się z aluminiowymi opakowaniami na napoje, jedzenie oraz z folią aluminiową.\n'**
+  /// **'we most often encounter aluminum packaging for drinks, food and aluminum foil.'**
   String get symbol_usage_alu41;
 
   /// No description provided for @symbol_usage_for50.
   ///
   /// In en, this message translates to:
-  /// **'produkcja płyt wiórowych oraz mebli, jako materiał opałowy, w ogrodnictwie oraz jako podkład dla zwierząt.'**
+  /// **'production of chipboards and furniture, as fuel, in gardening and as animal bedding.'**
   String get symbol_usage_for50;
 
   /// No description provided for @symbol_usage_for51.
   ///
   /// In en, this message translates to:
-  /// **'zatykanie butelek, tablice korkowe, podkładki, artykuły dekoracyjne, torebki, wypełniacze, okładziny podłogowe oraz ścienne.'**
+  /// **'bottle stoppers, cork boards, coasters, decorative items, bags, fillers, floor and wall coverings.'**
   String get symbol_usage_for51;
 
   /// No description provided for @symbol_usage_tex60.
   ///
   /// In en, this message translates to:
-  /// **'ubrania, opatrunki i ręczniki. '**
+  /// **'clothes, bandages and towels.'**
   String get symbol_usage_tex60;
 
   /// No description provided for @symbol_usage_tex61.
   ///
   /// In en, this message translates to:
-  /// **'worki, ale również ozdoby, dodatki do wystroju wnętrz.'**
+  /// **'bags, but also decorations and interior design accessories.'**
   String get symbol_usage_tex61;
 
   /// No description provided for @symbol_facts_ps06.
   ///
   /// In en, this message translates to:
-  /// **'często używa się również jego spienionej formy – styropianu. Wykorzystuje się go przy pakowaniu do zabezpieczenia, opakowań do żywności oraz w budownictwie.'**
+  /// **'it is often used in its foamed form - styrofoam. It is used for packaging protection, food packaging, and in construction.'**
   String get symbol_facts_ps06;
 
   /// No description provided for @symbol_facts_pap20.
   ///
   /// In en, this message translates to:
-  /// **'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.\n'**
+  /// **'remember, before throwing it into the blue container, check if the material being discarded is not wet or contaminated. It cannot be mixed with other materials; in that case, you must separate them.'**
   String get symbol_facts_pap20;
 
   /// No description provided for @symbol_facts_fe40.
   ///
   /// In en, this message translates to:
-  /// **'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.'**
+  /// **'before putting steel packaging into the yellow container, remove labels and food residues. Note that needles, cans from construction, chemical, and hazardous materials are not suitable for recycling.'**
   String get symbol_facts_fe40;
 
   /// No description provided for @symbol_facts_tex60.
   ///
   /// In en, this message translates to:
-  /// **'materiał wytworzony po recyklingu jest słabszy niż pierwotny materiał, wykorzystuje się go do produkcji m. in. mopów, ścierek i toreb na zakupy.'**
+  /// **'material produced after recycling is weaker than the original material; it is used for the production of, among others, mops, wipes, and shopping bags.'**
   String get symbol_facts_tex60;
 
   /// No description provided for @symbol_tooltips_pap21.
   ///
   /// In en, this message translates to:
-  /// **'pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.'**
+  /// **'remember to check whether the material being thrown away is not wet or dirty before throwing it into the blue container. It cannot be combined with another material, then you must separate them.'**
   String get symbol_tooltips_pap21;
 
   /// No description provided for @symbol_tooltips_pap22.
   ///
   /// In en, this message translates to:
-  /// **'recyklingowi podlegają opakowania wykonane z papieru, gazety, katalogi, książki, zeszyty, dokumenty, papier pakowy, torebki papierowe. Pamiętaj, aby przed wyrzuceniem do niebieskiego pojemnika sprawdzić czy wyrzucany materiał nie jest mokry lub zanieczyszczony. Nie może być połączony z innym materiałem, wówczas musisz je rozdzielić.'**
+  /// **'remember to check whether the material being thrown away is not wet or dirty before throwing it into the blue container. It cannot be combined with another material, then you must separate them.'**
   String get symbol_tooltips_pap22;
 
   /// No description provided for @symbol_tooltips_gl70.
   ///
   /// In en, this message translates to:
-  /// **'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.'**
+  /// **'remember that you can throw food and cosmetics glass packaging into the green glass container, the packaging of which is not permanently connected to another material. You cannot throw mixed packaging, ceramics, heat-resistant glass, light bulbs, mirrors, glass, thermometers and packaging for medicines, oils, chemicals or hazardous substances into glass containers.'**
   String get symbol_tooltips_gl70;
 
   /// No description provided for @symbol_tooltips_gl71.
   ///
   /// In en, this message translates to:
-  /// **'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.'**
+  /// **'remember that you can throw food and cosmetics glass packaging into the green glass container, the packaging of which is not permanently connected to another material. You cannot throw mixed packaging, ceramics, heat-resistant glass, light bulbs, mirrors, glass, thermometers and packaging for medicines, oils, chemicals or hazardous substances into glass containers.'**
   String get symbol_tooltips_gl71;
 
   /// No description provided for @symbol_tooltips_gl72.
   ///
   /// In en, this message translates to:
-  /// **'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.e'**
+  /// **'remember that you can throw food and cosmetics glass packaging into the green glass container, the packaging of which is not permanently connected to another material. You cannot throw mixed packaging, ceramics, heat-resistant glass, light bulbs, mirrors, glass, thermometers and packaging for medicines, oils, chemicals or hazardous substances into glass containers.'**
   String get symbol_tooltips_gl72;
+
+  /// No description provided for @symbol_tooltips_alu40.
+  ///
+  /// In en, this message translates to:
+  /// **'before throwing steel packaging into the yellow container, remove labels and food residues. Remember that needles and cans of construction, chemical and hazardous materials are not suitable for recycling.'**
+  String get symbol_tooltips_alu40;
 
   /// No description provided for @symbol_tooltips_alu41.
   ///
   /// In en, this message translates to:
-  /// **'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.'**
+  /// **'before throwing packaging into the yellow container, remove labels and food residues. Remember that needles and cans of construction, chemical and hazardous materials are not suitable for recycling.'**
   String get symbol_tooltips_alu41;
 
   /// No description provided for @symbol_tooltips_cx80.
   ///
   /// In en, this message translates to:
-  /// **'opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'the letter \'x\' in the symbol may be replaced by the abbreviation of the dominant material. Packaging marked with this symbol can be thrown away in the yellow container. You don\'t have to wash the packaging thoroughly before throwing it away, just remove any food remains.'**
   String get symbol_tooltips_cx80;
 
   /// No description provided for @symbol_tooltips_cx81.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx81;
 
   /// No description provided for @symbol_tooltips_cx82.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx82;
 
   /// No description provided for @symbol_tooltips_cx83.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx83;
 
   /// No description provided for @symbol_tooltips_cx84.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx84;
 
   /// No description provided for @symbol_tooltips_cx85.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx85;
 
   /// No description provided for @symbol_tooltips_cx90.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx90;
 
   /// No description provided for @symbol_tooltips_cx91.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx91;
 
   /// No description provided for @symbol_tooltips_cx92.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx92;
 
   /// No description provided for @symbol_tooltips_cx95.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx95;
 
   /// No description provided for @symbol_tooltips_cx96.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx96;
 
   /// No description provided for @symbol_tooltips_cx97.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx97;
 
   /// No description provided for @symbol_tooltips_cx98.
   ///
   /// In en, this message translates to:
-  /// **'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.'**
+  /// **'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,'**
   String get symbol_tooltips_cx98;
+
+  /// No description provided for @search.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home-top-left-eng.png'**
+  String get search;
+
+  /// No description provided for @list.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home-top-right-eng.png'**
+  String get list;
+
+  /// No description provided for @game.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home-down-left-eng.png'**
+  String get game;
+
+  /// No description provided for @authors.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home-down-right-eng.png'**
+  String get authors;
+
+  /// No description provided for @authors_description.
+  ///
+  /// In en, this message translates to:
+  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Faculty of Mechanical Engineering of the Lublin University of Technology.\n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
+  String get authors_description;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

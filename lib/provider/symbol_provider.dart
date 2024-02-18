@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 //AppLocalizations.of(context)!.symbol_usage_hdpe02,
 //AppLocalizations.of(context)!.symbol_facts_hdpe02,
 //AppLocalizations.of(context)!.symbol_tooltips_hdpe02,
+
 Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
   return {
     SymbolCategory.polimers: [
@@ -107,7 +108,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_pap20,
           AppLocalizations.of(context)!.symbol_facts_pap20,
           null,
-          "assets/images/symbols/pap20",
+          "assets/images/symbols/pap20.png",
           SymbolCategory.paper),
       Symbol(
           "pap21",
@@ -119,7 +120,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_pap21,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_pap21,
-          "assets/images/symbols/pap21",
+          "assets/images/symbols/pap21.png",
           SymbolCategory.paper),
       Symbol(
           "pap22",
@@ -128,10 +129,10 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           "PAP",
           AppLocalizations.of(context)!.symbol_description_pap22,
           null,
-          null,
+          AppLocalizations.of(context)!.symbol_usage_pap22,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_pap22,
-          "assets/images/symbols/pap22",
+          "assets/images/symbols/pap22.png",
           SymbolCategory.paper),
     ],
     SymbolCategory.glass: [
@@ -145,7 +146,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl70,
-          "assets/images/symbols/gl70",
+          "assets/images/symbols/gl70.png",
           SymbolCategory.glass),
       Symbol(
           "gl71",
@@ -157,7 +158,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl71,
-          "assets/images/symbols/gl71",
+          "assets/images/symbols/gl71.png",
           SymbolCategory.glass),
       Symbol(
           "gl72",
@@ -169,7 +170,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_gl72,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl72,
-          "assets/images/symbols/gl72",
+          "assets/images/symbols/gl72.png",
           SymbolCategory.glass),
     ],
     SymbolCategory.steel: [
@@ -183,7 +184,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_fe40,
           AppLocalizations.of(context)!.symbol_facts_fe40,
           null,
-          "assets/images/symbols/fe40",
+          "assets/images/symbols/fe40.png",
           SymbolCategory.steel),
       Symbol(
           "alu41",
@@ -195,7 +196,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_alu41,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_alu41,
-          "assets/images/symbols/alu41",
+          "assets/images/symbols/alu41.png",
           SymbolCategory.steel),
     ],
     SymbolCategory.wood: [
@@ -209,7 +210,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_for50,
           null,
           null,
-          "assets/images/symbols/for50",
+          "assets/images/symbols/for50.png",
           SymbolCategory.wood),
       Symbol(
           "for51",
@@ -221,7 +222,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_for51,
           null,
           null,
-          "assets/images/symbols/for51",
+          "assets/images/symbols/for51.png",
           SymbolCategory.wood),
     ],
     SymbolCategory.cotton: [
@@ -235,7 +236,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_tex60,
           AppLocalizations.of(context)!.symbol_facts_tex60,
           null,
-          "assets/images/symbols/tex60",
+          "assets/images/symbols/tex60.png",
           SymbolCategory.cotton),
       Symbol(
           "tex61",
@@ -247,7 +248,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_usage_tex61,
           null,
           null,
-          "assets/images/symbols/tex61",
+          "assets/images/symbols/tex61.png",
           SymbolCategory.cotton),
     ],
     SymbolCategory.mixed: [
@@ -261,7 +262,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx80,
-          "assets/images/symbols/cx80",
+          "assets/images/symbols/cx80.png",
           SymbolCategory.mixed),
       Symbol(
           "cx81",
@@ -273,7 +274,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx81,
-          "assets/images/symbols/cx81",
+          "assets/images/symbols/cx81.png",
           SymbolCategory.mixed),
       Symbol(
           "cx82",
@@ -285,7 +286,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx82,
-          "assets/images/symbols/cx82",
+          "assets/images/symbols/cx82.png",
           SymbolCategory.mixed),
       Symbol(
           "cx83",
@@ -297,7 +298,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx83,
-          "assets/images/symbols/cx83",
+          "assets/images/symbols/cx83.png",
           SymbolCategory.mixed),
       Symbol(
           "cx84",
@@ -309,7 +310,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx84,
-          "assets/images/symbols/cx84",
+          "assets/images/symbols/cx84.png",
           SymbolCategory.mixed),
       Symbol(
           "cx85",
@@ -321,7 +322,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx85,
-          "assets/images/symbols/cx85",
+          "assets/images/symbols/cx85.png",
           SymbolCategory.mixed),
       Symbol(
           "cx90",
@@ -333,7 +334,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx90,
-          "assets/images/symbols/cx90",
+          "assets/images/symbols/cx90.png",
           SymbolCategory.mixed),
       Symbol(
           "cx91",
@@ -345,7 +346,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx91,
-          "assets/images/symbols/cx91",
+          "assets/images/symbols/cx91.png",
           SymbolCategory.mixed),
       Symbol(
           "cx92",
@@ -357,7 +358,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx92,
-          "assets/images/symbols/cx92",
+          "assets/images/symbols/cx92.png",
           SymbolCategory.mixed),
       Symbol(
           "cx95",
@@ -369,7 +370,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx95,
-          "assets/images/symbols/cx95",
+          "assets/images/symbols/cx95.png",
           SymbolCategory.mixed),
       Symbol(
           "cx96",
@@ -381,7 +382,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx96,
-          "assets/images/symbols/cx96",
+          "assets/images/symbols/cx96.png",
           SymbolCategory.mixed),
       Symbol(
           "cx97",
@@ -393,7 +394,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx97,
-          "assets/images/symbols/cx97",
+          "assets/images/symbols/cx97.png",
           SymbolCategory.mixed),
       Symbol(
           "cx98",
@@ -405,7 +406,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx98,
-          "assets/images/symbols/cx98",
+          "assets/images/symbols/cx98.png",
           SymbolCategory.mixed),
     ]
   };

@@ -1,6 +1,7 @@
 import 'package:eco360/screen/symbol/widget/symbol_list.dart';
 import 'package:eco360/screen/symbol/widget/search_textfield.dart';
 import 'package:flutter/material.dart';
+import 'package:eco360/configuration/localization/app_localization.dart';
 
 class SymbolList extends StatefulWidget {
   SymbolList(this.shouldFocusOnSearch, {super.key});
@@ -26,9 +27,9 @@ class _SymbolListState extends State<SymbolList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 127, 175, 90),
+      backgroundColor: Color.fromARGB(255, 173, 213, 127),
       appBar: AppBar(
-        title: Text("Lista symboli"),
+        title: Text(AppLocalizations.of(context)!.header_symbol_list),
         backgroundColor: const Color.fromARGB(255, 252, 141, 75),
       ),
       body: SingleChildScrollView(
