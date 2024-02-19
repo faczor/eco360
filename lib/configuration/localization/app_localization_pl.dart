@@ -8,6 +8,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get app_name => 'EKO360';
 
   @override
+  String get logo => 'assets/images/logo/logo-appbar-pl.png';
+
+  @override
   String get header_symbol_list => 'Lista symboli';
 
   @override
@@ -152,25 +155,25 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_title_cx98 => 'Szkło/różne metale';
 
   @override
-  String get symbol_description_pet01 => 'polimer z grupy poliestrów.';
+  String get symbol_description_pet01 => 'polimer z grupy poliestrów. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_hdpe02 => 'polimer etenu.';
+  String get symbol_description_hdpe02 => 'polimer etenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_pvc03 => 'polimer z grupy polimerów winylowych, otrzymywany w chlorku winylu.';
+  String get symbol_description_pvc03 => 'polimer z grupy polimerów winylowych, otrzymywany w chlorku winylu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_ldpe04 => 'polimer etenu.';
+  String get symbol_description_ldpe04 => 'polimer etenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_pp05 => 'polimer z grupy poliolefin, otrzymywany z propenu.';
+  String get symbol_description_pp05 => 'polimer z grupy poliolefin, otrzymywany z propenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_ps06 => 'polimer styrenu.';
+  String get symbol_description_ps06 => 'polimer styrenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n';
+  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n';
 
   @override
   String get symbol_description_pap20 => 'składa się ułożonych naprzemiennie i sklejonych ze sobą z kilku arkuszy papieru falistego oraz papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych. Mogą składać się z różnej ilości warstw.';
@@ -323,7 +326,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_tooltips_gl72 => 'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.e';
 
   @override
-  String get symbol_tooltips_alu40 => 'before throwing steel packaging into the yellow container, remove labels and food residues. Remember that needles and cans of construction, chemical and hazardous materials are not suitable for recycling.';
+  String get symbol_tooltips_alu40 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.';
 
   @override
   String get symbol_tooltips_alu41 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.';
@@ -368,17 +371,17 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_tooltips_cx98 => 'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.';
 
   @override
-  String get search => 'assets/images/home-top-left.png';
+  String get search => 'assets/images/home/home-top-left.png';
 
   @override
-  String get list => 'assets/images/home-top-right.png';
+  String get list => 'assets/images/home/home-top-right.png';
 
   @override
-  String get game => 'assets/images/home-down-left.png';
+  String get game => 'assets/images/home/home-down-left.png';
 
   @override
-  String get authors => 'assets/images/home-down-right.png';
+  String get authors => 'assets/images/home/home-down-right.png';
 
   @override
-  String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek.';
+  String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego przy Katedrze Technologii i Przetwórtwa Tworzyw Polimerowych na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek.';
 }

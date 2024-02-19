@@ -99,6 +99,12 @@ abstract class AppLocalizations {
   /// **'ECO360'**
   String get app_name;
 
+  /// No description provided for @logo.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/logo/logo-appbar-en.png'**
+  String get logo;
+
   /// No description provided for @header_symbol_list.
   ///
   /// In en, this message translates to:
@@ -390,43 +396,43 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_description_pet01.
   ///
   /// In en, this message translates to:
-  /// **'polymer from the polyester group.'**
+  /// **'polymer from the polyester group. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_pet01;
 
   /// No description provided for @symbol_description_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'ethylene polymer.'**
+  /// **'ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_hdpe02;
 
   /// No description provided for @symbol_description_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'polymer from the vinyl polymer group, obtained in vinyl chloride.'**
+  /// **'polymer from the vinyl polymer group, obtained in vinyl chloride. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_pvc03;
 
   /// No description provided for @symbol_description_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'ethylene polymer.'**
+  /// **'ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_ldpe04;
 
   /// No description provided for @symbol_description_pp05.
   ///
   /// In en, this message translates to:
-  /// **'polymer from the polyolefin group, obtained from propene.'**
+  /// **'polymer from the polyolefin group, obtained from propene. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_pp05;
 
   /// No description provided for @symbol_description_ps06.
   ///
   /// In en, this message translates to:
-  /// **'styrene polymer.'**
+  /// **'styrene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.'**
   String get symbol_description_ps06;
 
   /// No description provided for @symbol_description_inne07.
   ///
   /// In en, this message translates to:
-  /// **'all polymeric materials not included as separate symbols were considered other. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n '**
+  /// **'all polymeric materials not included as separate symbols were considered other. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n '**
   String get symbol_description_inne07;
 
   /// No description provided for @symbol_description_pap20.
@@ -822,31 +828,31 @@ abstract class AppLocalizations {
   /// No description provided for @search.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home-top-left-eng.png'**
+  /// **'assets/images/home/home-top-left-en.png'**
   String get search;
 
   /// No description provided for @list.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home-top-right-eng.png'**
+  /// **'assets/images/home/home-top-right-en.png'**
   String get list;
 
   /// No description provided for @game.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home-down-left-eng.png'**
+  /// **'assets/images/home/home-down-left-en.png'**
   String get game;
 
   /// No description provided for @authors.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home-down-right-eng.png'**
+  /// **'assets/images/home/home-down-right-en.png'**
   String get authors;
 
   /// No description provided for @authors_description.
   ///
   /// In en, this message translates to:
-  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Faculty of Mechanical Engineering of the Lublin University of Technology.\n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
+  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
   String get authors_description;
 }
 

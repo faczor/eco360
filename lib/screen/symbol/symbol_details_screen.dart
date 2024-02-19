@@ -169,7 +169,7 @@ class SymbolDetailsScreen extends StatelessWidget {
                 ]),
               ),
               const SizedBox(height: 20,),
-              Image(image: AssetImage("xyz"))
+              const Image(image: AssetImage("xyz"))
             ],
           ),
         ),

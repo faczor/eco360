@@ -1,14 +1,18 @@
 {
   "app_name": "ECO360",
+  "logo": "assets/images/logo/logo-appbar-en.png",
+
   "header_symbol_list": "Symbol list",
   "header_symbol_details": "Symbol details",
   "header_authors": "Authors",
+
   "symbol_description": "Description: ",
   "symbol_properties": "Properties: ",
   "symbol_usages": "Usages: ",
   "symbol_tooltips": "Tooltips: ",
   "symbol_facts": "Facts: ",
   "symbol_picture": "Photos of products made of the described material: ",
+
   "category_polimers": "POLYMER/PLASTICS",
   "category_paper": "PAPER AND CARDBOARD",
   "category_glass": "GLASS",
@@ -16,6 +20,7 @@
   "category_wood": "WOOD AND CORK",
   "category_cotton": "COTTON AND JUTE",
   "category_mixed": "COMPOSITE",
+
   "symbol_title_pet01": "Polyethylene terephthalate",
   "symbol_title_hdpe02": "High density polyethylene",
   "symbol_title_pvc03": "Polyvinyl chloride",
@@ -49,13 +54,13 @@
   "symbol_title_cx97": "Glass/sheet metal",
   "symbol_title_cx98": "Glass/various metals",
 
-  "symbol_description_pet01": "polymer from the polyester group.",
-  "symbol_description_hdpe02": "ethylene polymer.",
-  "symbol_description_pvc03": "polymer from the vinyl polymer group, obtained in vinyl chloride.",
-  "symbol_description_ldpe04": "ethylene polymer.",
-  "symbol_description_pp05": "polymer from the polyolefin group, obtained from propene.",
-  "symbol_description_ps06": "styrene polymer.",
-  "symbol_description_inne07": "all polymeric materials not included as separate symbols were considered other. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n ",
+  "symbol_description_pet01": "polymer from the polyester group. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_hdpe02": "ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_pvc03": "polymer from the vinyl polymer group, obtained in vinyl chloride. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_ldpe04": "ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_pp05": "polymer from the polyolefin group, obtained from propene. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_ps06": "styrene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.",
+  "symbol_description_inne07": "all polymeric materials not included as separate symbols were considered other. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n ",
 
   "symbol_description_pap20": "consists of several sheets of corrugated paper and flat paper made of kraft paper, arranged alternately and glued together. This paper is made from waste paper or virgin fibers. They may consist of a different number of layers.",
   "symbol_description_pap21": "sheets of flat paper made of kraft paper glued together. This paper is made from waste paper or virgin fibers.",
@@ -129,10 +134,10 @@
   "symbol_tooltips_cx97": "The letter 'x' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don't need to wash the packaging thoroughly, just remove food residues,",
   "symbol_tooltips_cx98": "The letter 'x' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don't need to wash the packaging thoroughly, just remove food residues,",
 
-  "search": "assets/images/home-top-left-eng.png",
-  "list": "assets/images/home-top-right-eng.png",
-  "game": "assets/images/home-down-left-eng.png",
-  "authors": "assets/images/home-down-right-eng.png",
+  "search": "assets/images/home/home-top-left-en.png",
+  "list": "assets/images/home/home-top-right-en.png",
+  "game": "assets/images/home/home-down-left-en.png",
+  "authors": "assets/images/home/home-down-right-en.png",
 
-  "authors_description": "The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Faculty of Mechanical Engineering of the Lublin University of Technology.\n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek."
+  "authors_description": "The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek."
 }

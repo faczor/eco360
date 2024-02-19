@@ -8,6 +8,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get app_name => 'ECO360';
 
   @override
+  String get logo => 'assets/images/logo/logo-appbar-en.png';
+
+  @override
   String get header_symbol_list => 'Symbol list';
 
   @override
@@ -152,25 +155,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get symbol_title_cx98 => 'Glass/various metals';
 
   @override
-  String get symbol_description_pet01 => 'polymer from the polyester group.';
+  String get symbol_description_pet01 => 'polymer from the polyester group. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_hdpe02 => 'ethylene polymer.';
+  String get symbol_description_hdpe02 => 'ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_pvc03 => 'polymer from the vinyl polymer group, obtained in vinyl chloride.';
+  String get symbol_description_pvc03 => 'polymer from the vinyl polymer group, obtained in vinyl chloride. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_ldpe04 => 'ethylene polymer.';
+  String get symbol_description_ldpe04 => 'ethylene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_pp05 => 'polymer from the polyolefin group, obtained from propene.';
+  String get symbol_description_pp05 => 'polymer from the polyolefin group, obtained from propene. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_ps06 => 'styrene polymer.';
+  String get symbol_description_ps06 => 'styrene polymer. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits.';
 
   @override
-  String get symbol_description_inne07 => 'all polymeric materials not included as separate symbols were considered other. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n ';
+  String get symbol_description_inne07 => 'all polymeric materials not included as separate symbols were considered other. A polymer is a substance or material consisting of very large molecules called macromolecules, composed of many repeating subunits. They include many materials with different properties. Including biodegradable polymer materials.\n\n Examples of materials - thermoplastics: POM - poly(methylene oxide), PMMA - poly(methyl methacrylate) (acrylic glass), PA - polyamides.\n\n Examples of plastics - duroplasts: Bakelite, resins, PAN - polyacrylonitrile.\n\n Examples of biodegradable polymer materials: polymers based on starch/cellulose, PLA - poly(lactic acid), PHA - poly(alkanoic acids), PVA - poly(vinyl acetate), PEG - poly(ethylene oxide).\n ';
 
   @override
   String get symbol_description_pap20 => 'consists of several sheets of corrugated paper and flat paper made of kraft paper, arranged alternately and glued together. This paper is made from waste paper or virgin fibers. They may consist of a different number of layers.';
@@ -368,17 +371,17 @@ class AppLocalizationsEn extends AppLocalizations {
   String get symbol_tooltips_cx98 => 'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,';
 
   @override
-  String get search => 'assets/images/home-top-left-eng.png';
+  String get search => 'assets/images/home/home-top-left-en.png';
 
   @override
-  String get list => 'assets/images/home-top-right-eng.png';
+  String get list => 'assets/images/home/home-top-right-en.png';
 
   @override
-  String get game => 'assets/images/home-down-left-eng.png';
+  String get game => 'assets/images/home/home-down-left-en.png';
 
   @override
-  String get authors => 'assets/images/home-down-right-eng.png';
+  String get authors => 'assets/images/home/home-down-right-en.png';
 
   @override
-  String get authors_description => 'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Faculty of Mechanical Engineering of the Lublin University of Technology.\n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.';
+  String get authors_description => 'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.';
 }

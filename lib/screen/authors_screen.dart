@@ -22,7 +22,7 @@ class AuthorScreen extends StatelessWidget {
             Align(
               alignment: Alignment.center,
               child: Image.asset(
-                "assets/images/logo_carbon.png",
+                "assets/images/logo/logo-carbon.png",
                 height: 100,
               ),
             ),
@@ -38,11 +38,11 @@ class AuthorScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 buildIconButton("https://www.facebook.com/knipcarbon",
-                    "assets/images/button_facebook.png"),
+                    "assets/images/buttons/button-facebook.png"),
                 buildIconButton("https://www.instagram.com/kn_ipc/",
-                    "assets/images/button_instagram.png"),
+                    "assets/images/buttons/button-instagram.png"),
                 buildIconButton("https://wm.pollub.pl/wydzial-mechaniczny/jednostki-organizacyjne/katedra-technologii-i-przetworstwa-tworzyw-polimerowych/kolo-naukowe-inzynierii-polimerow-carbon",
-                    "assets/images/button_web.png"),
+                    "assets/images/buttons/button-web.png"),
               ],
             ),
           ],
@@ -57,7 +57,7 @@ class AuthorScreen extends StatelessWidget {
         try {
           await launch(url);
         } catch (e) {
-          print('Could not launch $url: $e');
+          Text('Could not launch $url: $e');
         }
       },
 

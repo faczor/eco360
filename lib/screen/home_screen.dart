@@ -1,6 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
-import 'package:eco360/main.dart';
 import 'package:eco360/screen/authors_screen.dart';
 import 'package:eco360/screen/symbol/symbols_list_screen.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +14,7 @@ class HomeScreen extends StatelessWidget {
     return Stack(
       children: [
         Image.asset(
-          "assets/images/background.png",
+          "assets/images/home/background.png",
           height: MediaQuery
               .of(context)
               .size
@@ -29,6 +27,14 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
+            leading: Padding(
+              padding: const EdgeInsets.all(5.0),
+              child: ClipOval(
+                child: Image(
+                  image: AssetImage(AppLocalizations.of(context)!.logo,),
+                ),
+              ),
+            ),
             title: Text(AppLocalizations.of(context)!.app_name),
             backgroundColor: const Color.fromARGB(255, 252, 141, 75),
           ),
@@ -38,13 +44,14 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     IconButton(
                       onPressed: () {
                         changeLanguage(Locale('pl'));
                       },
                       icon: Image.asset(
-                        "assets/images/flags/pl.png",
+                        "assets/images/flags/flag-pl.png",
                         height: 30,
                         width: 35,
                       ),
@@ -54,13 +61,12 @@ class HomeScreen extends StatelessWidget {
                         changeLanguage(Locale('en'));
                       },
                       icon: Image.asset(
-                        "assets/images/flags/en.png",
+                        "assets/images/flags/flag-en.png",
                         height: 30,
                         width: 35,
                       ),
                     ),
                   ],
-                  mainAxisAlignment: MainAxisAlignment.end,
                 ),
                 const Spacer(),
                 const Spacer(),
@@ -82,31 +88,31 @@ class HomeScreen extends StatelessWidget {
                       null,
                       "list",
                     ),
-                    Spacer(),
+                    const Spacer(),
                   ],
                 ),
-                Spacer(),
+                const Spacer(),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Spacer(),
+                    const Spacer(),
                     ImageCard(
                       AppLocalizations.of(context)!.game,
                       false,
                       "https://www.onet.pl",
                       null,
                     ),
-                    Spacer(),
+                    const Spacer(),
                     ImageCard(
                       AppLocalizations.of(context)!.authors,
                       true,
                       null,
                       "author",
                     ),
-                    Spacer(),
+                    const Spacer(),
                   ],
                 ),
-                Spacer(),
+                const Spacer(),
               ],
             ),
           ),

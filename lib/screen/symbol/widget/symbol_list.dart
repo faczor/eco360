@@ -2,7 +2,6 @@ import 'package:eco360/model/category.dart';
 import 'package:eco360/provider/symbol_provider.dart';
 import 'package:eco360/model/symbol.dart';
 import 'package:eco360/screen/symbol/widget/symbol_list_item.dart';
-
 import 'package:flutter/material.dart';
 
 class ListOfSymbols extends StatefulWidget {
@@ -39,19 +38,28 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
   buildCategoryItem(SymbolCategory category, List<Symbol> symbols) {
     return Card(
       color: getColor(category),
-      child: Align(
-        alignment: Alignment.topLeft,
-        child: Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: Wrap(
-            spacing: 20,
-            runSpacing: 20,
-            children: symbols.map((e) => SymbolListItem(e)).toList(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child:
+          Align(
+            alignment: Alignment.topLeft,
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Wrap(
+                spacing: 20,
+                runSpacing: 20,
+                children: symbols.map((e) => SymbolListItem(e)).toList(),
+              ),
+            ),
           ),
         ),
-      ),
-    );
-  }
+      ],
+    ),
+  );
+}
 
   void filterSymbols(
       Map<SymbolCategory, List<Symbol>> symbolsGroupedByCategory) {

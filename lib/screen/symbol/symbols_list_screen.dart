@@ -27,7 +27,7 @@ class _SymbolListState extends State<SymbolList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 173, 213, 127),
+      backgroundColor: const Color.fromARGB(255, 173, 213, 127),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context)!.header_symbol_list),
         backgroundColor: const Color.fromARGB(255, 252, 141, 75),
@@ -38,7 +38,7 @@ class _SymbolListState extends State<SymbolList> {
             //Search
             SearchTextField(
                 controller, _onSearchValueChange, widget.shouldFocusOnSearch),
-            SizedBox(height: 20,),
+            const SizedBox(height: 20,),
             ListOfSymbols(_searchValue)
             //Content
           ],

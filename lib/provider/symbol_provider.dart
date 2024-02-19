@@ -3,12 +3,6 @@ import 'package:eco360/model/category.dart';
 import 'package:eco360/model/symbol.dart';
 import 'package:flutter/material.dart';
 
-//AppLocalizations.of(context)!.symbol_description_hdpe02,
-//AppLocalizations.of(context)!.symbol_properties_hdpe02,
-//AppLocalizations.of(context)!.symbol_usage_hdpe02,
-//AppLocalizations.of(context)!.symbol_facts_hdpe02,
-//AppLocalizations.of(context)!.symbol_tooltips_hdpe02,
-
 Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
   return {
     SymbolCategory.polimers: [
@@ -143,7 +137,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           "GL",
           AppLocalizations.of(context)!.symbol_description_gl70,
           null,
-          null,
+          AppLocalizations.of(context)!.symbol_usage_gl70,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl70,
           "assets/images/symbols/gl70.png",
@@ -155,7 +149,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           "GL",
           AppLocalizations.of(context)!.symbol_description_gl71,
           null,
-          null,
+          AppLocalizations.of(context)!.symbol_usage_gl71,
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl71,
           "assets/images/symbols/gl71.png",
@@ -183,7 +177,7 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_usage_fe40,
           AppLocalizations.of(context)!.symbol_facts_fe40,
-          null,
+          AppLocalizations.of(context)!.symbol_tooltips_alu40,
           "assets/images/symbols/fe40.png",
           SymbolCategory.steel),
       Symbol(

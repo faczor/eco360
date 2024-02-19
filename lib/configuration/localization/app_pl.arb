@@ -1,14 +1,18 @@
 {
   "app_name": "EKO360",
+  "logo": "assets/images/logo/logo-appbar-pl.png",
+
   "header_symbol_list": "Lista symboli",
   "header_symbol_details": "Opis symbolu",
   "header_authors": "Autorzy",
+
   "symbol_description": "Opis: ",
   "symbol_properties": "Właściwości: ",
   "symbol_usages": "Zastosowania: ",
   "symbol_tooltips": "Wskazówki: ",
   "symbol_facts": "Ciekawostki: ",
   "symbol_picture": "Zdjęcia produktów wykonanych z opisanego materiału: ",
+
   "category_polimers": "TWORZYWA POLIMEROWE/SZTUCZNE",
   "category_paper": "PAPIER I TEKTURA",
   "category_glass": "SZKŁO",
@@ -16,6 +20,7 @@
   "category_wood": "DREWNO I KOREK",
   "category_cotton": "BAWEŁNA I JUTA",
   "category_mixed": "WIELOMATERIAŁOWE",
+
   "symbol_title_pet01": "Politereftalan etylenu",
   "symbol_title_hdpe02": "Polietylen dużej gęstości",
   "symbol_title_pvc03": "Polichlorek winylu",
@@ -49,13 +54,13 @@
   "symbol_title_cx97": "Szkło/blacha",
   "symbol_title_cx98": "Szkło/różne metale",
 
-  "symbol_description_pet01": "polimer z grupy poliestrów.",
-  "symbol_description_hdpe02": "polimer etenu.",
-  "symbol_description_pvc03": "polimer z grupy polimerów winylowych, otrzymywany w chlorku winylu.",
-  "symbol_description_ldpe04": "polimer etenu.",
-  "symbol_description_pp05": "polimer z grupy poliolefin, otrzymywany z propenu.",
-  "symbol_description_ps06": "polimer styrenu.",
-  "symbol_description_inne07": "jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n",
+  "symbol_description_pet01": "polimer z grupy poliestrów. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_hdpe02": "polimer etenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_pvc03": "polimer z grupy polimerów winylowych, otrzymywany w chlorku winylu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_ldpe04": "polimer etenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_pp05": "polimer z grupy poliolefin, otrzymywany z propenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_ps06": "polimer styrenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.",
+  "symbol_description_inne07": "jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n",
 
   "symbol_description_pap20": "składa się ułożonych naprzemiennie i sklejonych ze sobą z kilku arkuszy papieru falistego oraz papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych. Mogą składać się z różnej ilości warstw.",
   "symbol_description_pap21": "są to sklejone ze sobą arkusze papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych.",
@@ -113,6 +118,7 @@
   "symbol_tooltips_gl70": "pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.",
   "symbol_tooltips_gl71": "pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.",
   "symbol_tooltips_gl72": "pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.e",
+  "symbol_tooltips_alu40": "przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.",
   "symbol_tooltips_alu41": "przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.",
   "symbol_tooltips_cx80": "opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.",
   "symbol_tooltips_cx81": "litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.",
@@ -128,10 +134,10 @@
   "symbol_tooltips_cx97": "litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.",
   "symbol_tooltips_cx98": "litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.",
 
-  "search": "assets/images/home-top-left.png",
-  "list": "assets/images/home-top-right.png",
-  "game": "assets/images/home-down-left.png",
-  "authors": "assets/images/home-down-right.png",
+  "search": "assets/images/home/home-top-left.png",
+  "list": "assets/images/home/home-top-right.png",
+  "game": "assets/images/home/home-down-left.png",
+  "authors": "assets/images/home/home-down-right.png",
 
-  "authors_description": "Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek."
+  "authors_description": "Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego przy Katedrze Technologii i Przetwórtwa Tworzyw Polimerowych na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek."
   }
