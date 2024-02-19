@@ -13,77 +13,111 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [
-      Image.asset(
-        "assets/images/background.png",
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        fit: BoxFit.fill,
-      ),
-      Scaffold(
-        appBar: AppBar(
-          title: Text(AppLocalizations.of(context)!.app_name),
-          backgroundColor: const Color.fromARGB(255, 252, 141, 75),
+    return Stack(
+      children: [
+        Image.asset(
+          "assets/images/background.png",
+          height: MediaQuery
+              .of(context)
+              .size
+              .height,
+          width: MediaQuery
+              .of(context)
+              .size
+              .width,
+          fit: BoxFit.fill,
         ),
-        backgroundColor: Colors.transparent,
-        body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Row(
-                children: [
-                  IconButton.outlined(
+        Scaffold(
+          appBar: AppBar(
+            title: Text(AppLocalizations.of(context)!.app_name),
+            backgroundColor: const Color.fromARGB(255, 252, 141, 75),
+          ),
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  children: [
+                    IconButton(
                       onPressed: () {
                         changeLanguage(Locale('pl'));
                       },
-                      icon: Icon(Icons.flag)),
-                  IconButton.outlined(
+                      icon: Image.asset(
+                        "assets/images/flags/pl.png",
+                        height: 30,
+                        width: 35,
+                      ),
+                    ),
+                    IconButton(
                       onPressed: () {
                         changeLanguage(Locale('en'));
                       },
-                      icon: Icon(Icons.ac_unit_outlined))
-                ],
-                mainAxisAlignment: MainAxisAlignment.end,
-              ),
-              const Spacer(),
-              const Spacer(),
-              const Spacer(),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Spacer(),
-                  ImageCard(
-                      AppLocalizations.of(context)!.search, true, null,
-                      "list-search"),
-                  const Spacer(),
-                  ImageCard(
-                      AppLocalizations.of(context)!.list, true, null, "list"),
-                  Spacer(),
-                ],
-              ),
-              Spacer(),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Spacer(),
-                  ImageCard(AppLocalizations.of(context)!.game, false,
-                      "https://www.onet.pl", null),
-                  Spacer(),
-                  ImageCard(AppLocalizations.of(context)!.authors, true, null,
-                      "author"),
-                  Spacer(),
-                ],
-              ),
-              Spacer(),
-            ],
+                      icon: Image.asset(
+                        "assets/images/flags/en.png",
+                        height: 30,
+                        width: 35,
+                      ),
+                    ),
+                  ],
+                  mainAxisAlignment: MainAxisAlignment.end,
+                ),
+                const Spacer(),
+                const Spacer(),
+                const Spacer(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Spacer(),
+                    ImageCard(
+                      AppLocalizations.of(context)!.search,
+                      true,
+                      null,
+                      "list-search",
+                    ),
+                    const Spacer(),
+                    ImageCard(
+                      AppLocalizations.of(context)!.list,
+                      true,
+                      null,
+                      "list",
+                    ),
+                    Spacer(),
+                  ],
+                ),
+                Spacer(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Spacer(),
+                    ImageCard(
+                      AppLocalizations.of(context)!.game,
+                      false,
+                      "https://www.onet.pl",
+                      null,
+                    ),
+                    Spacer(),
+                    ImageCard(
+                      AppLocalizations.of(context)!.authors,
+                      true,
+                      null,
+                      "author",
+                    ),
+                    Spacer(),
+                  ],
+                ),
+                Spacer(),
+              ],
+            ),
           ),
         ),
-      ),
-    ]);
+      ],
+    );
   }
 }
 
-class ImageCard extends StatelessWidget {
+
+  class ImageCard extends StatelessWidget {
   final String assetPath;
   bool isInnerNavigation = true;
   String? navigationUrl;
