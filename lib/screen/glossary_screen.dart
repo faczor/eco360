@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class GlossaryScreen extends StatelessWidget {
@@ -10,7 +11,7 @@ class GlossaryScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 171, 209, 127),
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.header_glossary),
+        title: Text(AppLocalizations.of(context)!.header_glossary,style: GoogleFonts.montserrat()),
         backgroundColor: const Color.fromARGB(255, 252, 141, 75),
       ),
       body: SingleChildScrollView(

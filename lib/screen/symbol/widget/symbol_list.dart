@@ -4,6 +4,7 @@ import 'package:eco360/model/symbol.dart';
 import 'package:eco360/screen/symbol/widget/symbol_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ListOfSymbols extends StatefulWidget {
   const ListOfSymbols(this._searchValue, {super.key});
@@ -63,10 +64,7 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
           children: [
              Text(
               getText(category, context),
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
+              style: GoogleFonts.montserrat(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Align(

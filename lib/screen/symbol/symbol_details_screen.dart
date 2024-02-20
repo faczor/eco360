@@ -2,6 +2,7 @@ import 'package:eco360/model/category.dart';
 import 'package:eco360/model/symbol.dart';
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SymbolDetailsScreen extends StatelessWidget {
   const SymbolDetailsScreen(this.symbol, {super.key});
@@ -123,7 +124,7 @@ class SymbolDetailsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: resolveBackgroundColor(symbol.category),
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.header_symbol_details),
+        title: Text(AppLocalizations.of(context)!.header_symbol_details, style: GoogleFonts.montserrat()),
         backgroundColor: const Color.fromARGB(255, 252, 141, 75),
       ),
       body: Padding(

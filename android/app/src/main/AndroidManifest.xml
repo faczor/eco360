@@ -5,6 +5,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:icon="@mipmap/logo"
             android:launchMode="singleTop"
