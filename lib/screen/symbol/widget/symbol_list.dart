@@ -38,28 +38,39 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
   buildCategoryItem(SymbolCategory category, List<Symbol> symbols) {
     return Card(
       color: getColor(category),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(10.0),
-            child:
-          Align(
-            alignment: Alignment.topLeft,
-            child: Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Wrap(
-                spacing: 20,
-                runSpacing: 20,
-                children: symbols.map((e) => SymbolListItem(e)).toList(),
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              "Kategoria",
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
               ),
             ),
-          ),
+            const SizedBox(height: 10),
+            Align(
+              alignment: Alignment.topLeft,
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Wrap(
+                  spacing: 20,
+                  runSpacing: 20,
+                  children: symbols.map((e) =>
+                      ClipRRect(
+                    borderRadius: BorderRadius.circular(6.0),
+                    child: SymbolListItem(e),
+                  )).toList(),
+                ),
+              ),
+            ),
+          ],
         ),
-      ],
-    ),
-  );
-}
+      ),
+    );
+  }
 
   void filterSymbols(
       Map<SymbolCategory, List<Symbol>> symbolsGroupedByCategory) {

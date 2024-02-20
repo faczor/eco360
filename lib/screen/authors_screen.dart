@@ -27,13 +27,21 @@ class AuthorScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,),
+              height: 20,
+            ),
             Text(
               AppLocalizations.of(context)!.authors_description,
               textAlign: TextAlign.justify,
             ),
             const SizedBox(
-              height: 20,),
+              height: 20,
+            ),
+            Text(AppLocalizations.of(context)!.sm_invitation,
+              textAlign: TextAlign.justify,
+            ),
+            const SizedBox(
+              height: 20,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -51,20 +59,24 @@ class AuthorScreen extends StatelessWidget {
     );
   }
 
-  Widget buildIconButton(String url, String imagePath) {
+  Widget buildIconButton(urlString, String imagePath) {
     return InkWell(
-      onTap: () async {
-        try {
-          await launch(url);
-        } catch (e) {
-          Text('Could not launch $url: $e');
-        }
-      },
-
-      child: Image.asset(
-        imagePath,
-        height: 50,
-      ),
+        onTap: () async {
+          await _launchURL(urlString);
+        },
+        child: Image.asset(
+      imagePath,
+      height: 50,
+    ),
     );
   }
 }
+
+_launchURL(String urlString) async {
+  final Uri url = Uri.parse(urlString);
+  if (!await launchUrl(url)) {
+    throw Exception('Could not launch $urlString');
+  }
+}
+
+

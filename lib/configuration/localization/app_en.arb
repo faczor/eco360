@@ -5,6 +5,7 @@
   "header_symbol_list": "Symbol list",
   "header_symbol_details": "Symbol details",
   "header_authors": "Authors",
+  "header_glossary": "Glossary",
 
   "symbol_description": "Description: ",
   "symbol_properties": "Properties: ",
@@ -89,7 +90,7 @@
   "symbol_properties_pap21": "biodegradable and safe, can come into contact with food products, in the following colors: white, gray or brown, can be covered with print or laminated with PE or PP foil.",
 
 
-  "symbol_usage_pet01": "medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), production of packaging (e.g. water bottles, yogurt cups, foil, trays), textile industry (carpet yarn, textile fibers, insulating fibers, fleece) and construction (thermal insulation boards, building boards).",
+  "symbol_usage_pet01": "\n- medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), \n- production of packaging (e.g. water bottles, yogurt cups, foil, trays), \n- textile industry (carpet yarn, textile fibers, insulating fibers, fleece), \n- construction (thermal insulation boards, building boards).",
   "symbol_usage_hdpe02": "pressure pipes, pipe fittings, laboratory vessels, containers, bottles, plates, packaging.",
   "symbol_usage_pvc03": "construction (pipes, cables, furniture veneers, carpets), medicine (syringes, catheters, drains, packaging, mouthpieces for administering air, laryngological specula, elements of an artificial heart, blood veins, ear implants).",
   "symbol_usage_ldpe04": "foils, packaging, heat-shrinkable foils,b single-use gloves.",
@@ -134,10 +135,13 @@
   "symbol_tooltips_cx97": "The letter 'x' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don't need to wash the packaging thoroughly, just remove food residues,",
   "symbol_tooltips_cx98": "The letter 'x' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don't need to wash the packaging thoroughly, just remove food residues,",
 
-  "search": "assets/images/home/home-top-left-en.png",
-  "list": "assets/images/home/home-top-right-en.png",
-  "game": "assets/images/home/home-down-left-en.png",
+  "search": "assets/images/home/home-top-right-en.png",
+  "list": "assets/images/home/home-down-left-en.png",
+  "glossary": "assets/images/home/home-top-left-en.png",
   "authors": "assets/images/home/home-down-right-en.png",
+  "game": "assets/images/home/game-en.png",
+  "glossary_description": "Tu będzie piękny słowniczek PO ANGIELSKU! \n \n The markings, symbols and names were taken from the Regulation of the Minister of the Environment of September 3, 2014 on packaging labeling patterns.",
 
-  "authors_description": "The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek."
+  "authors_description": "The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.",
+  "sm_invitation": "Check our social media: "
 }

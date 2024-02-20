@@ -20,6 +20,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get header_authors => 'Autorzy';
 
   @override
+  String get header_glossary => 'Słownik';
+
+  @override
   String get symbol_description => 'Opis: ';
 
   @override
@@ -173,7 +176,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_description_ps06 => 'polimer styrenu. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów.';
 
   @override
-  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw - duroplastów: bakelit, żywice, PAN – poliakrylonitryl.\n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n';
+  String get symbol_description_inne07 => 'jako inne uznano wszystkie tworzywa polimerowe nieuwzględnione jako osobne symbole. Polimer jest substancją chemiczną o dużej masie cząsteczkowej, która składa się z wielkrotnie powtórzonych częsci - merów. Wśród nich znajduje się wiele tworzyw o zróżnicowanych właściwościach. W tym również tworzywa polimerowe biodegradowalne.\n\n Przykłady tworzyw - termoplastów: POM - poli(tlenek metylenu), PMMA - poli(metakrylan metylu) (szkło akrylowe), PA – poliamidy.\n\n Przykłady tworzyw utwardzalnych (duroplastów): żywice (akrylowe, epoksydowe, formaldehydowe i fenolowe), PAN – poliakrylonitryl, bakelit. Żywice nie podlegają recyklingowi. \n\n Przykłady tworzyw polimerowych biodegradowalnych: polimery na bazie skrobi/celulozy, PLA - poli(kwas mlekowy), PHA – poli(kwasy alkanowe), PVA - poli(octan winylu), PEG - poli(tlenek etylenu).\n';
 
   @override
   String get symbol_description_pap20 => 'składa się ułożonych naprzemiennie i sklejonych ze sobą z kilku arkuszy papieru falistego oraz papieru płaskiego wykonanych z papieru typu kraft. Papier ten wykonywany jest z makulatury lub włókien pierwotnych. Mogą składać się z różnej ilości warstw.';
@@ -245,7 +248,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_properties_pap21 => 'biodegradowalny i bezpieczny, może mieć kontakt z produktami spożywczymi, w kolorach: białym, szarym lub brązowym, może zostać pokryta drukiem lub zostać zalaminowana folią wykonaną z PE lub PP. ';
 
   @override
-  String get symbol_usage_pet01 => 'medycyna (protezy kości sklepienia czaszki, protezy naczyń krwionośnych, oznaczników chirurgicznych do podtrzymywania narządów wypreparowanych w czasie operacji, protezy więzadeł i ścięgien, elementów korpusu sztucznego serca), produkcja opakowań (np. butelek na wodę, kubeczków do jogurtów, folii, tacek), włókiennictwo (przędza dywanowa, włókna na tekstylia, włókna izolacyjne, polar) oraz budownictwo (płyty termoizolacyjne, płyty budowlane).';
+  String get symbol_usage_pet01 => ' \n - medycyna (protezy kości sklepienia czaszki, protezy naczyń krwionośnych, oznaczników chirurgicznych do podtrzymywania narządów wypreparowanych w czasie operacji, protezy więzadeł i ścięgien, elementów korpusu sztucznego serca), \n - opakowania (np. butelki na wodę, kubeczki do jogurtów, folie, tacki), \n  - włókiennictwo (przędza dywanowa, włókna na tekstylia, włókna izolacyjne, polar), \n- budownictwo (płyty termoizolacyjne, płyty budowlane).';
 
   @override
   String get symbol_usage_hdpe02 => 'rury ciśnieniowe, złączki do rur, naczynia laboratoryjne, pojemniki, butelki, płyty, opakowania.';
@@ -254,7 +257,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_usage_pvc03 => 'budownictwo (rury, kable, okleiny meblowe, wykładziny), medycyna (strzykawki, cewniki, dreny, opakowania, ustniki do podawania powietrza, wzierniki laryngologiczne, elementy sztucznego serca, żyły krwionośne, implanty uszu).';
 
   @override
-  String get symbol_usage_ldpe04 => ' folie, opakowania, folie termokurczliwe, rękawice jednorazowe.';
+  String get symbol_usage_ldpe04 => 'folie, opakowania, folie termokurczliwe, rękawice jednorazowe.';
 
   @override
   String get symbol_usage_pp05 => 'przemysł włókienniczy (włókna, tkaniny, sznury, sieci, włókniny), przemysł medyczny (siatki chirurgiczne, taśmy urologiczne, protezy kości sklepienia czaszki, protezy kości oczodołu, siatki chirurgiczne do operacyjnego leczenia przepuklin, części mikroskopowe, strzykawki, rozgałęźniki i łączniki do drenów, ściany namiotów tlenowych, probówki na krew), opakowania i materiały rolnicze.';
@@ -371,17 +374,26 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_tooltips_cx98 => 'litera “x” w symbolu może być zastąpiona skrótem dominującego materiału. Opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.';
 
   @override
-  String get search => 'assets/images/home/home-top-left.png';
+  String get search => 'assets/images/home/home-top-right.png';
 
   @override
-  String get list => 'assets/images/home/home-top-right.png';
+  String get list => 'assets/images/home/home-down-left.png';
 
   @override
-  String get game => 'assets/images/home/home-down-left.png';
+  String get glossary => 'assets/images/home/home-top-left.png';
 
   @override
   String get authors => 'assets/images/home/home-down-right.png';
 
   @override
+  String get game => 'assets/images/home/game.png';
+
+  @override
+  String get glossary_description => 'Tu będzie piękny słowniczek! \n \n Oznakowania, symbole oraz nazwy zostały zaczerpnięte z Rozporządzenia Ministra Środowiska z dnia 3 września 2014 r. w sprawie wzorów oznakowania opakowań.';
+
+  @override
   String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego przy Katedrze Technologii i Przetwórtwa Tworzyw Polimerowych na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n - Joanna Tomasik, \n - Sebastian Druciak \n wraz z opiekunem koła naukowego: dr inż. Anetą Tor-Świątek.';
+
+  @override
+  String get sm_invitation => 'Zapraszamy do odwiedzenia naszych mediów społecznościowych: ';
 }

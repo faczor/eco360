@@ -123,6 +123,12 @@ abstract class AppLocalizations {
   /// **'Authors'**
   String get header_authors;
 
+  /// No description provided for @header_glossary.
+  ///
+  /// In en, this message translates to:
+  /// **'Glossary'**
+  String get header_glossary;
+
   /// No description provided for @symbol_description.
   ///
   /// In en, this message translates to:
@@ -576,7 +582,7 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_usage_pet01.
   ///
   /// In en, this message translates to:
-  /// **'medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), production of packaging (e.g. water bottles, yogurt cups, foil, trays), textile industry (carpet yarn, textile fibers, insulating fibers, fleece) and construction (thermal insulation boards, building boards).'**
+  /// **'\n- medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), \n- production of packaging (e.g. water bottles, yogurt cups, foil, trays), \n- textile industry (carpet yarn, textile fibers, insulating fibers, fleece), \n- construction (thermal insulation boards, building boards).'**
   String get symbol_usage_pet01;
 
   /// No description provided for @symbol_usage_hdpe02.
@@ -828,20 +834,20 @@ abstract class AppLocalizations {
   /// No description provided for @search.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home/home-top-left-en.png'**
+  /// **'assets/images/home/home-top-right-en.png'**
   String get search;
 
   /// No description provided for @list.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home/home-top-right-en.png'**
+  /// **'assets/images/home/home-down-left-en.png'**
   String get list;
 
-  /// No description provided for @game.
+  /// No description provided for @glossary.
   ///
   /// In en, this message translates to:
-  /// **'assets/images/home/home-down-left-en.png'**
-  String get game;
+  /// **'assets/images/home/home-top-left-en.png'**
+  String get glossary;
 
   /// No description provided for @authors.
   ///
@@ -849,11 +855,29 @@ abstract class AppLocalizations {
   /// **'assets/images/home/home-down-right-en.png'**
   String get authors;
 
+  /// No description provided for @game.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home/game-en.png'**
+  String get game;
+
+  /// No description provided for @glossary_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Tu będzie piękny słowniczek PO ANGIELSKU! \n \n The markings, symbols and names were taken from the Regulation of the Minister of the Environment of September 3, 2014 on packaging labeling patterns.'**
+  String get glossary_description;
+
   /// No description provided for @authors_description.
   ///
   /// In en, this message translates to:
   /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
   String get authors_description;
+
+  /// No description provided for @sm_invitation.
+  ///
+  /// In en, this message translates to:
+  /// **'Check our social media: '**
+  String get sm_invitation;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

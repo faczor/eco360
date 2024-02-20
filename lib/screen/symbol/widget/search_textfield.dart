@@ -20,7 +20,7 @@ class SearchTextField extends StatelessWidget {
         submitChanges(value);
       },
 
-      cursorColor: Color.fromARGB(255, 252, 141, 75),
+      cursorColor: const Color.fromARGB(255, 252, 141, 75),
       decoration: const InputDecoration(
         filled: true,
         prefixIcon: Icon(Icons.search, color:  Color.fromARGB(255, 252, 141, 75),),

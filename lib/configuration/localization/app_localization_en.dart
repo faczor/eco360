@@ -20,6 +20,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get header_authors => 'Authors';
 
   @override
+  String get header_glossary => 'Glossary';
+
+  @override
   String get symbol_description => 'Description: ';
 
   @override
@@ -245,7 +248,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get symbol_properties_pap21 => 'biodegradable and safe, can come into contact with food products, in the following colors: white, gray or brown, can be covered with print or laminated with PE or PP foil.';
 
   @override
-  String get symbol_usage_pet01 => 'medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), production of packaging (e.g. water bottles, yogurt cups, foil, trays), textile industry (carpet yarn, textile fibers, insulating fibers, fleece) and construction (thermal insulation boards, building boards).';
+  String get symbol_usage_pet01 => '\n- medicine (skull bone prostheses, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), \n- production of packaging (e.g. water bottles, yogurt cups, foil, trays), \n- textile industry (carpet yarn, textile fibers, insulating fibers, fleece), \n- construction (thermal insulation boards, building boards).';
 
   @override
   String get symbol_usage_hdpe02 => 'pressure pipes, pipe fittings, laboratory vessels, containers, bottles, plates, packaging.';
@@ -371,17 +374,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get symbol_tooltips_cx98 => 'The letter \'x\' in the symbol can be replaced with the abbreviation of the dominant material. Packaging marked with this symbol can be disposed of in the yellow container. Before disposal, you don\'t need to wash the packaging thoroughly, just remove food residues,';
 
   @override
-  String get search => 'assets/images/home/home-top-left-en.png';
+  String get search => 'assets/images/home/home-top-right-en.png';
 
   @override
-  String get list => 'assets/images/home/home-top-right-en.png';
+  String get list => 'assets/images/home/home-down-left-en.png';
 
   @override
-  String get game => 'assets/images/home/home-down-left-en.png';
+  String get glossary => 'assets/images/home/home-top-left-en.png';
 
   @override
   String get authors => 'assets/images/home/home-down-right-en.png';
 
   @override
+  String get game => 'assets/images/home/game-en.png';
+
+  @override
+  String get glossary_description => 'Tu będzie piękny słowniczek PO ANGIELSKU! \n \n The markings, symbols and names were taken from the Regulation of the Minister of the Environment of September 3, 2014 on packaging labeling patterns.';
+
+  @override
   String get authors_description => 'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.';
+
+  @override
+  String get sm_invitation => 'Check our social media: ';
 }
