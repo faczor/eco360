@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:eco360/configuration/localization/app_localization.dart';
 
 enum SymbolCategory {
 
@@ -28,4 +29,23 @@ enum SymbolCategory {
         return const Color.fromARGB(255, 255, 241, 0);
     }
   }
+  getText (SymbolCategory category, context){
+    switch (category){
+      case SymbolCategory.polimers:
+        return AppLocalizations.of(context)!.category_polimers;
+      case SymbolCategory.paper:
+        return AppLocalizations.of(context)!.category_paper;
+      case SymbolCategory.glass:
+        return AppLocalizations.of(context)!.category_glass;
+      case SymbolCategory.steel:
+        return AppLocalizations.of(context)!.category_steel;
+      case SymbolCategory.wood:
+        return AppLocalizations.of(context)!.category_wood;
+      case SymbolCategory.cotton:
+        return AppLocalizations.of(context)!.category_cotton;
+      case SymbolCategory.mixed:
+        return AppLocalizations.of(context)!.category_mixed;
+    }
+  }
+
 }

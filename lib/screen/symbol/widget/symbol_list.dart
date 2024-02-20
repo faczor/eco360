@@ -3,6 +3,7 @@ import 'package:eco360/provider/symbol_provider.dart';
 import 'package:eco360/model/symbol.dart';
 import 'package:eco360/screen/symbol/widget/symbol_list_item.dart';
 import 'package:flutter/material.dart';
+import 'package:eco360/configuration/localization/app_localization.dart';
 
 class ListOfSymbols extends StatefulWidget {
   const ListOfSymbols(this._searchValue, {super.key});
@@ -34,18 +35,35 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
         return const Color.fromARGB(255, 255, 241, 0);
     }
   }
-
+  getText (SymbolCategory category, context){
+    switch (category){
+      case SymbolCategory.polimers:
+        return AppLocalizations.of(context)!.category_polimers;
+      case SymbolCategory.paper:
+        return AppLocalizations.of(context)!.category_paper;
+      case SymbolCategory.glass:
+        return AppLocalizations.of(context)!.category_glass;
+      case SymbolCategory.steel:
+        return AppLocalizations.of(context)!.category_steel;
+      case SymbolCategory.wood:
+        return AppLocalizations.of(context)!.category_wood;
+      case SymbolCategory.cotton:
+        return AppLocalizations.of(context)!.category_cotton;
+      case SymbolCategory.mixed:
+        return AppLocalizations.of(context)!.category_mixed;
+    }
+  }
   buildCategoryItem(SymbolCategory category, List<Symbol> symbols) {
     return Card(
       color: getColor(category),
       child: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(12.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              "Kategoria",
-              style: TextStyle(
+             Text(
+              getText(category, context),
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),

@@ -4,7 +4,6 @@ import 'package:eco360/screen/symbol/symbols_list_screen.dart';
 import 'package:eco360/screen/glossary_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:ui';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen(this.changeLanguage, {super.key});
