@@ -21,7 +21,14 @@ class GlossaryScreen extends StatelessWidget {
             const SizedBox(
               height: 20,),
             Text(
-              AppLocalizations.of(context)!.glossary_description,
+                AppLocalizations.of(context)!.glossary_description,
+              textAlign: TextAlign.justify,
+            ),
+            const SizedBox(
+              height: 40,
+            ),
+            Text(
+              AppLocalizations.of(context)!.glossary_law,
               textAlign: TextAlign.justify,
             ),
           ],
