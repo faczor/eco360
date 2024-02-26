@@ -61,8 +61,7 @@ class GlossaryScreen extends StatelessWidget {
               text: TextSpan(
                   style: const TextStyle(color: Colors.black), children: [
                 TextSpan(
-                  text: (AppLocalizations.of(context)!
-                      .glossary_thermoplastics_header),
+                  text: (AppLocalizations.of(context)!.glossary_thermoplastics_header),
                   style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 16),
                 ),
@@ -81,8 +80,7 @@ class GlossaryScreen extends StatelessWidget {
               text: TextSpan(
                   style: const TextStyle(color: Colors.black), children: [
                 TextSpan(
-                  text: (AppLocalizations.of(context)!
-                      .glossary_duroplastics_header),
+                  text: (AppLocalizations.of(context)!.glossary_duroplastics_header),
                   style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 16),
                 ),
@@ -101,8 +99,7 @@ class GlossaryScreen extends StatelessWidget {
               text: TextSpan(
                   style: const TextStyle(color: Colors.black), children: [
                 TextSpan(
-                  text: (AppLocalizations.of(context)!
-                      .glossary_elastomers_header),
+                  text: (AppLocalizations.of(context)!.glossary_elastomers_header),
                   style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 16),
                 ),
@@ -128,8 +125,7 @@ class GlossaryScreen extends StatelessWidget {
                 ),
                 const TextSpan(text: " "),
                 TextSpan(
-                  text: AppLocalizations.of(context)!
-                      .glossary_degradable_plastics,
+                  text: AppLocalizations.of(context)!.glossary_degradable_plastics,
                   style: const TextStyle(fontSize: 14),
                 ),
               ]),
