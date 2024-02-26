@@ -165,11 +165,11 @@ abstract class AppLocalizations {
   /// **'Photos of products made of the described material: '**
   String get symbol_picture;
 
-  /// No description provided for @category_polimers.
+  /// No description provided for @category_polymers.
   ///
   /// In en, this message translates to:
   /// **'Polymer/Plastics'**
-  String get category_polimers;
+  String get category_polymers;
 
   /// No description provided for @category_paper.
   ///
@@ -438,13 +438,13 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_description_inne07.
   ///
   /// In en, this message translates to:
-  /// **'All polymeric materials not included as separate symbols were considered other. They include many materials with different properties, including biodegradable polymeric materials.\n\nExamples of plastics - thermoplastics:\n● POM - poly(methylene oxide),\n● PMMA - poly(methyl methacrylate) (acrylic glass),\n● PA - polyamides,\n● PC - polycarbonate,\n● PTFE - polytetrafluoroethylene (Teflon),\n● ABS – acrylonitrile-butadiene-styrene.\n\nExamples of hardenable plastics (duroplasts):\n● Polyurethane PUR,\n● Resins (acrylic, epoxy, formaldehyde, and phenolic),\n● PAN – polyacrylonitrile, Bakelite. They are harmful and toxic.\n\nExamples of biodegradable polymer materials:\n● Starch/cellulose-based polymers,\n● PLA - poly(lactic acid),\n● PHA - poly(alkanoic acids),\n● PVA - poly(vinyl acetate),\n● PEG - poly(ethylene oxide).'**
+  /// **'all polymeric materials not included as separate symbols were considered as other. They include many materials with different properties. Including biodegradable polymeric materials.\n\n Examples of plastics - thermoplastics: \n ● POM - poly(oxide) methylene), \n ● PMMA - poly(methyl methacrylate) (acrylic glass), \n ● PA - polyamides, \n ● PC - polycarbonate, \n ● PTFE - polytetrafluoroethylene (Teflon), \n ● ABS - acrylonitrile-butadiene -styrene.\n\n Examples of hardenable plastics (duroplasts): \n ● PUR polyurethane, \n ● resins (acrylic, epoxy, formaldehyde and phenolic), are harmful and toxic, \n ● PAN - polyacrylonitrile, bakelite. \n \n Examples of biodegradable polymer materials: \n ● starch/cellulose-based polymers, \n ● PLA - poly(lactic acid), polylactide, \n ● PGA - poly(glycolic acid), \n ● PHA - poly(alkanoic acids) , \n ● PVA - poly(vinyl acetate), \n ● PEG - poly(ethylene oxide), \n ● PCL - polycaprolactone.'**
   String get symbol_description_inne07;
 
   /// No description provided for @symbol_description_pap20.
   ///
   /// In en, this message translates to:
-  /// **'consists of several sheets of corrugated paper and flat paper made of kraft paper, arranged alternately and glued together. This paper is made from waste paper or virgin fibers. They may consist of a different number of layers.'**
+  /// **'consists of several sheets of corrugated paper and flat paper made of kraft paper, arranged alternately and glued together. This paper is made of waste paper or virgin fibers. They may consist of a different number of layers.'**
   String get symbol_description_pap20;
 
   /// No description provided for @symbol_description_pap21.
@@ -564,7 +564,7 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_properties_ps06.
   ///
   /// In en, this message translates to:
-  /// **'thermoplastic, safe, non-toxic, non-biodegradable with high biocompatibility, colorless, hard and brittle, recyclable, dyes can be used.'**
+  /// **'thermoplastic, safe, non-toxic, non-biodegradable with high biocompatibility, colorless, hard and brittle, heavier than water, recyclable, dyes can be used.'**
   String get symbol_properties_ps06;
 
   /// No description provided for @symbol_properties_pap20.
@@ -582,37 +582,37 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_usage_pet01.
   ///
   /// In en, this message translates to:
-  /// **'\n● medycyna (protezy kości sklepienia czaszki, protezy naczyń krwionośnych, oznaczników chirurgicznych do podtrzymywania narządów wypreparowanych w czasie operacji, protezy więzadeł i ścięgien, elementy korpusu sztucznego serca), \n● opakowania (np. butelki na wodę, kubeczki do jogurtów, folie, tacki), \n● włókiennictwo (przędza dywanowa, włókna na tekstylia, włókna izolacyjne, polar), \n● budownictwo (płyty termoizolacyjne, płyty budowlane).'**
+  /// **'\n ● medicine (prosthetic bones of the skull vault, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), \n ● packaging (e.g. water bottles) , yogurt cups, foils, trays), \n ● textiles (carpet yarn, textile fibers, insulating fibers, fleece), \n ● construction (thermal insulation boards, building boards).'**
   String get symbol_usage_pet01;
 
   /// No description provided for @symbol_usage_hdpe02.
   ///
   /// In en, this message translates to:
-  /// **'rury ciśnieniowe, złączki do rur, naczynia laboratoryjne, pojemniki, butelki, płyty, opakowania.'**
+  /// **'pressure pipes, pipe fittings, laboratory vessels, containers, bottles, plates, packaging.'**
   String get symbol_usage_hdpe02;
 
   /// No description provided for @symbol_usage_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'\n● budownictwo (rury, kable, okleiny meblowe, wykładziny), \n● medycyna (strzykawki, cewniki, dreny, opakowania, ustniki do podawania powietrza, wzierniki laryngologiczne, elementy sztucznego serca, żyły krwionośne, implanty uszu).'**
+  /// **'\n ● construction (pipes, cables, furniture veneers, carpets), \n ● medicine (syringes, catheters, drains, packaging, mouthpieces for administering air, ENT specula, artificial heart components, blood veins, ear implants ).'**
   String get symbol_usage_pvc03;
 
   /// No description provided for @symbol_usage_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'folie, opakowania, folie termokurczliwe, rękawice jednorazowe.'**
+  /// **'foils, packaging, shrink films, disposable gloves.'**
   String get symbol_usage_ldpe04;
 
   /// No description provided for @symbol_usage_pp05.
   ///
   /// In en, this message translates to:
-  /// **'\n● przemysł włókienniczy (włókna, tkaniny, sznury, sieci, włókniny), \n● przemysł medyczny (siatki chirurgiczne, taśmy urologiczne, protezy kości sklepienia czaszki, protezy kości oczodołu, siatki chirurgiczne do operacyjnego leczenia przepuklin, części mikroskopowe, strzykawki, rozgałęźniki i łączniki do drenów, ściany namiotów tlenowych, probówki na krew), \n● opakowania, \n● materiały rolnicze.'**
+  /// **'\n ● textile industry (fibers, fabrics, ropes, nets, non-woven fabrics), \n ● medical industry (surgical meshes, urological tapes, cranial vault bone prostheses, orbital bone prostheses, surgical meshes for surgical treatment of hernias, microscopic parts, syringes, manifolds and connectors for tubing, walls of oxygen tents, blood test tubes), \n ● packaging, bottle stoppers, medicine packaging, \n ● agricultural materials.'**
   String get symbol_usage_pp05;
 
   /// No description provided for @symbol_usage_ps06.
   ///
   /// In en, this message translates to:
-  /// **'produkcja opakowań na suche produkty, wieczka do jednorazowych kubków, pudełka, sztuczna biżuteria, zabawki.'**
+  /// **'production of dry product packaging, disposable cup lids, boxes, artificial jewelry, toys, thermoforming foils.'**
   String get symbol_usage_ps06;
 
   /// No description provided for @symbol_usage_pap20.
@@ -702,25 +702,25 @@ abstract class AppLocalizations {
   /// No description provided for @symbol_facts_pvc03.
   ///
   /// In en, this message translates to:
-  /// **'\n ● PVC is one of the oldest synthetic materials with the longest history in industrial production.\n ● Researchers accidentally discovered PVC at least twice in the 19th century. The first discovery in 1838 was made by French physicist and chemist Henri Victor Regnault, and the second in 1872 by German Eugen Baumann. In both cases, the polymer appeared as a white solid in flasks with the newly discovered gaseous vinyl chloride, exposed to sunlight. The material was difficult to process, and no one could meet the challenges of commercial applications.\n ● In 1913, German inventor Friedrich Heinrich August Klatte patented PVC. His method involved polymerizing vinyl chloride using sunlight.\n ● PVC is the third most widely used synthetic plastic polymer in the world, right after polyethylene and polypropylene.\n ● In the 1950s and 1960s, the boom in the music industry paved the way for its earliest mass-market applications. To this day, you can find old vinyl records that are a testament to the durability of this resilient material.'**
+  /// **'\n ● PVC is one of the oldest synthetic materials with the longest history in industrial production.\n ● Early researchers accidentally discovered PVC at least twice in the 19th century. The first discovery in 1838 was made by the French physicist and chemist Henri Victor Regnault, and the second in 1872 by the German Eugen Baumann. In both cases, the polymer appeared as a white solid in flasks containing the newly discovered gaseous vinyl chloride, which were exposed to sunlight. The material was difficult to work with and no one met the challenges of application commercial applications.\n ● In 1913, German inventor Friedrich Heinrich August Klatte patented PVC. His method involved the polymerization of vinyl chloride using sunlight.\n ● It is the third most commonly used synthetic polymer in the world - after polyethylene and polypropylene.\n ● From 1950s and 1960s, it is used to produce vinyl records.'**
   String get symbol_facts_pvc03;
 
   /// No description provided for @symbol_facts_ldpe04.
   ///
   /// In en, this message translates to:
-  /// **'\n ● Polyethylene was first synthesized by the German chemist Hans von Pechman, who accidentally produced it in 1898 while heating diazomethane. His colleagues Eugen Bamberger and Friedrich Tschimer examined the white, waxy substance and discovered that it consists of many -CH2- groups, naming it polymethylene.\n ● Despite being a low-density material, LDPE is produced in a high-pressure process.\n ● Many purchased food products are found in containers that are almost always made from LDPE sheets. This is because LDPE is one of the few types of plastics considered safe for food, as it does not contain BPA (bisphenol A). Storing and consuming food from LDPE plastic containers is completely safe because the unique chemical composition of LDPE does not contain traces of BPA.\n ● The loose crystalline structure of LDPE makes this material very flexible and has the ability to return to its original shape after compression.'**
+  /// **'\n ● Polyethylene was first synthesized by the German chemist Hans von Pechman, who produced it by accident in 1898 while heating diazomethane. His colleagues Eugen Bamberger and Friedrich Tschimer examined the white, waxy substance and discovered that it consisted of it from many -CH2- groups and called it polymethylene.\n ● Although it is a low-density plastic, LDPE is produced in a high-pressure process.\n ● Many purchased food products are in containers, which are almost always made of LDPE. This is because LDPE is one of the few varieties of plastics considered safe for food because it does not contain BPA (also known as bisphenol A). Storing and consuming food from LDPE containers is completely safe because the unique chemical composition of LDPE does not contain traces BPA.\n ● The loose crystalline structure of LDPE makes the material very flexible and able to return to its original form after being compressed.'**
   String get symbol_facts_ldpe04;
 
   /// No description provided for @symbol_facts_pp05.
   ///
   /// In en, this message translates to:
-  /// **'\n ● Discovered in 1951 during an attempt to transform propylene into gasoline by J. Paul Hogan and Robert L. Banks of Phillips Petroleum Company.\n ● PP is a semi-crystalline polymer, meaning that the synthetic material exhibits organized and tightly packed molecular chains. Crystalline areas are called spherulites and can vary in shape and size, with amorphous areas occurring between crystalline regions. The degree of crystallinity affects many properties of the polymer. The semi-crystalline nature of PP gives this material a hazy appearance.\n ● PP has the lightest mass of all polymers and is also the polymer with the lowest density.\n ● Recycled PP is currently used in applications such as battery casings, paint cans, household storage, flower pots, composite wood, and furniture.\n ● Due to its lightweight, PP products generate less solid waste compared to other plastics.\n ● PP also has good temperature resistance, making it an excellent choice for applications in microwaves or for hot filling. This is due to the high melting temperature of PP – the working temperature range of PP reaches 146°C, and the heating temperature in a microwave and hot filling ranges from 100 to 120°C.'**
+  /// **'\n ● It was discovered in 1951, while J. Paul Hogan and Robert L. Banks of the Phillips Petroleum Company were trying to convert propylene into gasoline.\n ● PP is a semi-crystalline polymer, which means that it exhibits an organized and tightly packed molecular chains. Areas of crystallinity are called spherulites and can vary in shape and size, with amorphous areas occurring between the crystalline areas. The degree of crystallinity affects many properties of the polymer. The semi-crystalline nature of PP gives the material a hazy appearance.\n ● PP has the lightest weight of all polymers and is also the lowest density polymer.\n ● Recycled PP is currently used in applications such as battery cases, paint cans, home storage, flower pots, composite wood and furniture.\n ● Thanks due to its light weight, PP products produce less solid waste compared to other plastics.\n ● PP also has good temperature resistance, making it an excellent choice for microwave or hot fill applications. This is due to the high melting point of PP - the maximum short-term use temperature of PP reaches 146°C, and the temperature of heating in a microwave oven and hot filling is from 100 to 120°C.'**
   String get symbol_facts_pp05;
 
   /// No description provided for @symbol_facts_ps06.
   ///
   /// In en, this message translates to:
-  /// **'\n ● It is often used in its foamed form - styrofoam. It is used for packaging protection, food packaging, and in construction.\\n ● Polystyrene was discovered accidentally by the German pharmacist Eduard Simon in 1839. From storax, the resin of the oriental sweetgum tree Liquidambar orientalis, he distilled an oily substance which he named styrol, although he did not know what he had discovered. It wasn\'t until 1922 that another German, chemist Hermann Staudinger, analyzed and described this substance.\\n ● In 1953, Hermann Staudinger received the Nobel Prize in Chemistry for his research.\\n ● Styrofoam, a type of polystyrene, was developed by the Dow Chemical Company, also by accident. Dow employee Ray McIntire was trying to develop a flexible insulator by combining materials under pressure. As a result, he created Styrofoam, a material that expanded 40 times and was much lighter than regular polystyrene.'**
+  /// **'\n ● Polystyrene was discovered accidentally by the German pharmacist Edward Simon in 1839. From storax, the resin of the oriental sugar tree Liquidambar orientalis, he distilled an oily substance which he called styrol, but he did not know what he had discovered. It was not until 1922 another German, chemist, Hermann Staudinger, tested and described this substance.\n ● In 1953, Hermann Staudinger received the Nobel Prize in Chemistry for his research.\n ● Its foamed form is also often used - Styrofoam. It is used in packaging for product protection, as food packaging and in construction. \n ● Styrofoam was developed by the Dow Chemical Company, also by accident. Dow employee Ray McIntire tried to develop a flexible insulator by combining materials under pressure. As a result, he created Styrofoam, a material that expanded 40 times and was much lighter than ordinary polystyrene.'**
   String get symbol_facts_ps06;
 
   /// No description provided for @symbol_facts_pap20.
@@ -891,11 +891,89 @@ abstract class AppLocalizations {
   /// **'assets/images/home/game-en.png'**
   String get game;
 
-  /// No description provided for @glossary_description.
+  /// No description provided for @glossary_polymer_header.
   ///
   /// In en, this message translates to:
-  /// **'Polymer – a chemical substance consisting of many times repeated units called units. The basis of the monomeric unit (mer) is carbon (C). We distinguish:\n  ● natural polymers - naturally occurring in nature, such as: rubber, wood, proteins, nucleic acids (DNA and RNA), starch, cellulose, collagen (skin component),\n● synthetic polymers (polymer materials) - produced in polymerization processes, which additionally contain auxiliary agents improving properties or processing possibilities. The most popular materials include: polyolefins, polyvinyl chloride, polyethylene terephthalate, polycarbonate, polystyrene, polyamide.\n\nPolymerization - a method of obtaining synthetic polymers in a chemical reaction by combining smaller molecules (monomers - single units) into long chains.\n\nThermoplastics - also known as thermoplastics, belong to the group of plastomers. It is capable of repeatedly changing from solid to plastic and liquid and vice versa without significant changes in properties. They can be processed many times, i.e. recycled. There are semi-crystalline (hard and brittle) and amorphous (flexible) thermoplastics.\n\nDuroplasts – also known as hardenable plastics, belong to the group of plastomers. They transform irreversibly: under the influence of heat (thermosets), chemical factors (chemosets) or physical factors (elastomers - rubber, caoutchouc). They are infusible and insoluble. They are not recyclable, cannot be recycled, and are not degradable. For their disposal, the coking method is used (coke oven gas and coke are produced).\n\nElastomers – have the ability to reversibly deform under the influence of applied forces. These include both natural materials (natural rubber) and synthetic materials (rubber, silicone, synthetic rubber). Elastomers change shape under the action of compressive, shear and tension forces, and then return to their original shape and dimensions when these forces are removed. Due to their elasticity, they perfectly dampen vibrations and shocks and contribute to reducing the noise emitted by devices.\n\nDegradable plastics (including biodegradable) are natural and synthetic materials which, depending on aerobic or anaerobic processes, are completely decomposed by microorganisms (bacteria and fungi) into carbon dioxide, methane, water, biomass and inorganic materials.\n\nRecycling - is the process of reusing raw materials and materials, i.e. returning them to circulation. This process is complex and multi-stage and includes: waste collection and storage, waste identification, separation and sorting, shredding, washing and drying, and reprocessing. There are 4 types of recycling:\n● mechanical (also known as material) recycling, which produces a secondary raw material, i.e. granulate for repeated processing.\n● raw material recycling (also known as chemical recycling) involves recovering raw materials using chemical reactions, e.g. processing packaging into new plastic products.\n● organic recycling used for biodegradable waste, also called composting. This waste is broken down by microorganisms.\n● thermal (or energy) recycling, which involves obtaining energy from waste combustion.'**
-  String get glossary_description;
+  /// **'Polymer'**
+  String get glossary_polymer_header;
+
+  /// No description provided for @glossary_polymer.
+  ///
+  /// In en, this message translates to:
+  /// **' - a chemical substance consisting of repeatedly repeated units called mers. The basis of the monomeric unit (mer) is carbon (C). We distinguish: \n ● natural polymers - naturally occurring in nature, such as: rubber, wood, proteins, nucleic acids (DNA and RNA), starch, cellulose, collagen (skin component), \n● synthetic polymers (polymer plastics) - produced in polymerization processes, which additionally contain auxiliary agents improving properties or processing possibilities. The most popular plastics include include: polyolefins, polyvinyl chloride, polyethylene terephthalate, polycarbonate, polystyrene, polyamide.'**
+  String get glossary_polymer;
+
+  /// No description provided for @glossary_polymerization_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Polymerization'**
+  String get glossary_polymerization_header;
+
+  /// No description provided for @glossary_polymerization.
+  ///
+  /// In en, this message translates to:
+  /// **' - a method of obtaining synthetic polymers in a chemical reaction by combining smaller molecules (monomers - single units) into long chains.'**
+  String get glossary_polymerization;
+
+  /// No description provided for @glossary_thermoplastics_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Thermoplastics'**
+  String get glossary_thermoplastics_header;
+
+  /// No description provided for @glossary_thermoplastics.
+  ///
+  /// In en, this message translates to:
+  /// **' - also known as plastics thermoplastics, belong to the group of plastomers. They are capable of repeatedly changing from solid to plastic and liquid and vice versa without significant changes in properties. They can be processed many times, i.e. recycled. There are semi-crystalline (hard and brittle) and amorphous (flexible) thermoplastics.'**
+  String get glossary_thermoplastics;
+
+  /// No description provided for @glossary_duroplastics_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Duroplastics'**
+  String get glossary_duroplastics_header;
+
+  /// No description provided for @glossary_duroplastics.
+  ///
+  /// In en, this message translates to:
+  /// **' - also known as hardenable plastics, belong to the group of plastomers. They transform irreversibly: under the influence of heat (thermosets), chemical factors (chemosets) or physical factors (elastomers - rubber, caoutchouc). They are infusible and insoluble. They do not degrade, they are ground in the recycling process and used as an additive in the production of composites. For their disposal, the coking method is used (coke oven gas and coke are produced).'**
+  String get glossary_duroplastics;
+
+  /// No description provided for @glossary_elastomers_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Elastomers'**
+  String get glossary_elastomers_header;
+
+  /// No description provided for @glossary_elastomers.
+  ///
+  /// In en, this message translates to:
+  /// **' – have the ability to reversibly deform under the influence of applied forces. These include both natural materials (natural rubber) and synthetic materials (rubber, silicone, synthetic rubber). Elastomers change shape under the action of compressive, shear and tension forces, and then return to their original shape and dimensions when these forces are removed. Due to their elasticity, they perfectly dampen vibrations and shocks and contribute to reducing the noise emitted by devices.'**
+  String get glossary_elastomers;
+
+  /// No description provided for @glossary_degradable_plastics_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Degradable plastics'**
+  String get glossary_degradable_plastics_header;
+
+  /// No description provided for @glossary_degradable_plastics.
+  ///
+  /// In en, this message translates to:
+  /// **' (including biodegradable) - natural and synthetic materials which, depending on aerobic or anaerobic processes, are completely decomposed by microorganisms (bacteria and fungi) into carbon dioxide, methane, water, biomass and inorganic materials.'**
+  String get glossary_degradable_plastics;
+
+  /// No description provided for @glossary_recycling_header.
+  ///
+  /// In en, this message translates to:
+  /// **'Recycling'**
+  String get glossary_recycling_header;
+
+  /// No description provided for @glossary_recycling.
+  ///
+  /// In en, this message translates to:
+  /// **' - is the process of reusing raw materials and materials, i.e. returning them to circulation. This process is complex and multi-stage and includes: waste collection and storage, waste identification, separation and sorting, shredding, washing and drying, and reprocessing. There are 4 types of recycling: \n● mechanical (or material) recycling, which produces a secondary raw material, i.e. granulate for repeated processing. \n● raw material recycling (also known as chemical recycling) involves recovering raw materials using chemical reactions, e.g. processing packaging into new plastic products. \n● organic recycling used for biodegradable waste, also called composting. This waste is broken down by microorganisms. \n● thermal (or energy) recycling, which involves obtaining energy from burning waste.'**
+  String get glossary_recycling;
 
   /// No description provided for @glossary_law.
   ///
@@ -906,7 +984,7 @@ abstract class AppLocalizations {
   /// No description provided for @authors_description.
   ///
   /// In en, this message translates to:
-  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  - Joanna Tomasik,\n  - Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
+  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  ● Joanna Tomasik,\n  ● Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
   String get authors_description;
 
   /// No description provided for @sm_invitation.

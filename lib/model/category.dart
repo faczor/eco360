@@ -32,7 +32,7 @@ enum SymbolCategory {
   getText (SymbolCategory category, context){
     switch (category){
       case SymbolCategory.polimers:
-        return AppLocalizations.of(context)!.category_polimers;
+        return AppLocalizations.of(context)!.category_polymers;
       case SymbolCategory.paper:
         return AppLocalizations.of(context)!.category_paper;
       case SymbolCategory.glass:

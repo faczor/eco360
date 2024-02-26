@@ -36,10 +36,16 @@ class SymbolDetailsScreen extends StatelessWidget {
             text: TextSpan(style: const TextStyle(color: Colors.black), children: [
               TextSpan(
                   text: (AppLocalizations.of(context)!.symbol_description),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const TextSpan(text: " "),
-              TextSpan(text: symbol.description)
-            ]),
+              TextSpan(
+                  text: symbol.description,
+                  style: const TextStyle(
+                    fontSize: 14
+                  )
+              )
+            ]
+            ),
           );
   }
 
@@ -51,9 +57,12 @@ class SymbolDetailsScreen extends StatelessWidget {
             text: TextSpan(style: const TextStyle(color: Colors.black), children: [
               TextSpan(
                   text: (AppLocalizations.of(context)!.symbol_properties),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const TextSpan(text: " "),
-              TextSpan(text: symbol.properties)
+              TextSpan(text: symbol.properties,
+                  style: const TextStyle(
+                      fontSize: 14
+                  ))
             ]),
           );
   }
@@ -66,9 +75,12 @@ class SymbolDetailsScreen extends StatelessWidget {
             text: TextSpan(style: const TextStyle(color: Colors.black), children: [
               TextSpan(
                   text: (AppLocalizations.of(context)!.symbol_usages),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const TextSpan(text: " "),
-              TextSpan(text: symbol.usage)
+              TextSpan(text: symbol.usage,
+                style: const TextStyle(
+                fontSize: 14
+                ))
             ]),
           );
   }
@@ -81,9 +93,12 @@ class SymbolDetailsScreen extends StatelessWidget {
             text: TextSpan(style: const TextStyle(color: Colors.black), children: [
               TextSpan(
                   text: (AppLocalizations.of(context)!.symbol_facts),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const TextSpan(text: " "),
-              TextSpan(text: symbol.facts)
+              TextSpan(text: symbol.facts,
+                  style: const TextStyle(
+                  fontSize: 14
+                  ))
             ]),
           );
   }
@@ -96,7 +111,7 @@ class SymbolDetailsScreen extends StatelessWidget {
             text: TextSpan(style: const TextStyle(color: Colors.black), children: [
               TextSpan(
                   text: (AppLocalizations.of(context)!.symbol_tooltips),
-                  style: const TextStyle(fontWeight: FontWeight.bold)),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const TextSpan(text: " "),
               TextSpan(text: symbol.tooltips)
             ]),
@@ -165,7 +180,7 @@ class SymbolDetailsScreen extends StatelessWidget {
                 text: TextSpan(style: const TextStyle(color: Colors.black), children: [
                   TextSpan(
                       text: (AppLocalizations.of(context)!.symbol_picture),
-                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                   const TextSpan(text: " "),
                 ]),
               ),
