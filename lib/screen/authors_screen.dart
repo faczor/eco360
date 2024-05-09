@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../config.dart';
 
 class AuthorScreen extends StatelessWidget {
   const AuthorScreen({super.key});
@@ -9,10 +9,10 @@ class AuthorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 171, 209, 127),
+      backgroundColor: AppConfig.background,
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.header_authors,style: GoogleFonts.montserrat()),
-        backgroundColor: const Color.fromARGB(255, 252, 141, 75),
+        title: Text(AppLocalizations.of(context)!.header_authors,),
+        backgroundColor: AppConfig.appBarBackground,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

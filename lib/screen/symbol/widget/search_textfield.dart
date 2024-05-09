@@ -1,3 +1,4 @@
+import 'package:eco360/config.dart';
 import 'package:flutter/material.dart';
 
 class SearchTextField extends StatelessWidget {
@@ -20,14 +21,14 @@ class SearchTextField extends StatelessWidget {
         submitChanges(value);
       },
 
-      cursorColor: const Color.fromARGB(255, 252, 141, 75),
-      decoration: const InputDecoration(
+      cursorColor: AppConfig.appBarBackground,
+      decoration: InputDecoration(
         filled: true,
-        prefixIcon: Icon(Icons.search, color:  Color.fromARGB(255, 252, 141, 75),),
-        fillColor: Color.fromARGB(255, 172, 211, 127),
+        prefixIcon: Icon(Icons.search, color:  AppConfig.appBarBackground,),
+        fillColor: AppConfig.background,
         focusedBorder: UnderlineInputBorder(
           borderSide:
-              BorderSide(color: Color.fromARGB(255, 252, 141, 75), width: 2.0),
+              BorderSide(color: AppConfig.appBarBackground, width: 2.0),
         ),
       ),
     );

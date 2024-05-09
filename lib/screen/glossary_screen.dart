@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../config.dart';
 
 
 class GlossaryScreen extends StatelessWidget {
@@ -9,11 +9,10 @@ class GlossaryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 171, 209, 127),
+      backgroundColor: AppConfig.background,
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.header_glossary,
-            style: GoogleFonts.montserrat()),
-        backgroundColor: const Color.fromARGB(255, 252, 141, 75),
+        title: Text(AppLocalizations.of(context)!.header_glossary,),
+        backgroundColor: AppConfig.appBarBackground,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),

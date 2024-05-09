@@ -12,6 +12,7 @@ class Symbol {
   final String? tooltips;
   final String assetPath;
   final SymbolCategory category;
+  final String? link;
 
   Symbol(
       this.id,
@@ -24,5 +25,7 @@ class Symbol {
       this.facts,
       this.tooltips,
       this.assetPath,
-      this.category);
+      this.category,
+      this.link
+      );
 }

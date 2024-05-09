@@ -1,9 +1,9 @@
+import 'package:eco360/config.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
 import 'package:eco360/screen/authors_screen.dart';
 import 'package:eco360/screen/symbol/symbols_list_screen.dart';
 import 'package:eco360/screen/glossary_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -37,8 +37,8 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            title: Text(AppLocalizations.of(context)!.app_name, style: GoogleFonts.montserrat()),
-            backgroundColor: const Color.fromARGB(255, 252, 141, 75),
+            title: Text(AppLocalizations.of(context)!.app_name),
+            backgroundColor: AppConfig.appBarBackground,
           ),
           backgroundColor: Colors.transparent,
           body: SafeArea(

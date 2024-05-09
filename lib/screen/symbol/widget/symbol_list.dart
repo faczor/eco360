@@ -4,7 +4,8 @@ import 'package:eco360/model/symbol.dart';
 import 'package:eco360/screen/symbol/widget/symbol_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+import '../../../config.dart';
 
 class ListOfSymbols extends StatefulWidget {
   const ListOfSymbols(this._searchValue, {super.key});
@@ -21,19 +22,19 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
   Color getColor(SymbolCategory category) {
     switch (category) {
       case SymbolCategory.polimers:
-        return const Color.fromARGB(255, 255, 241, 0);
+        return AppConfig.yellow;
       case SymbolCategory.paper:
-        return const Color.fromARGB(255, 0, 176, 229);
+        return AppConfig.blue;
       case SymbolCategory.glass:
-        return const Color.fromARGB(255, 0, 175, 41);
+        return AppConfig.green;
       case SymbolCategory.steel:
-        return const Color.fromARGB(255, 255, 241, 0);
+        return AppConfig.yellow;
       case SymbolCategory.wood:
-        return const Color.fromARGB(255, 170, 122, 92);
+        return AppConfig.brown;
       case SymbolCategory.cotton:
-        return const Color.fromARGB(255, 170, 122, 92);
+        return AppConfig.brown;
       case SymbolCategory.mixed:
-        return const Color.fromARGB(255, 255, 241, 0);
+        return AppConfig.yellow;
     }
   }
   getText (SymbolCategory category, context){
@@ -62,9 +63,9 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-             Text(
+            Text(
               getText(category, context),
-              style: GoogleFonts.montserrat(fontSize: 16, fontWeight: FontWeight.bold),
+                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Align(

@@ -419,7 +419,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get glossary_thermoplastics_header => 'Termoplasty';
 
   @override
-  String get glossary_thermoplastics => ' - also known as plastics thermoplastics, belong to the group of plastomers. They are capable of repeatedly changing from solid to plastic and liquid and vice versa without significant changes in properties. They can be processed many times, i.e. recycled. There are semi-crystalline (hard and brittle) and amorphous (flexible) thermoplastics.';
+  String get glossary_thermoplastics => ' – inaczej tworzywa termoplastyczne, należą do grupy plastomerów. Są zdolne do wielokrotnego przechodzenia ze stanu stałego w plastyczny i ciekły oraz odwrotnie bez istotnych zmian właściwości. Można je wielokrotnie przetwarzać, czyli poddawać recyklingowi. Wyróżnia się termoplasty semikrystaliczne (twarde i kruche) oraz amorficzne (elastyczne).';
 
   @override
   String get glossary_duroplastics_header => 'Duroplasty';
@@ -449,7 +449,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get glossary_law => 'Oznakowania, symbole oraz nazwy zostały zaczerpnięte z Rozporządzenia Ministra Środowiska z dnia 3 września 2014 r. w sprawie wzorów oznakowania opakowań.';
 
   @override
-  String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego przy Katedrze Technologii i Przetwórtwa Tworzyw Polimerowych na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n  ● Joanna Tomasik, \n  ● Sebastian Druciak \n wraz z opiekunem koła naukowego: \n  ● dr inż. Anetą Tor-Świątek.';
+  String get authors_description => 'Aplikacja została opracowana w ramach działalności Koła Naukowego Inżynierii Polimerów CARBON działającego przy Katedrze Technologii i Przetwórstwa Tworzyw Polimerowych na Wydziale Mechanicznym Politechniki Lubelskiej. \n\n Autorami aplikacją są: \n  ● Joanna Tomasik, \n  ● Sebastian Druciak \n wraz z opiekunem koła naukowego: \n  ● dr inż. Anetą Tor-Świątek.';
 
   @override
   String get sm_invitation => 'Zapraszamy do odwiedzenia naszych mediów społecznościowych: ';

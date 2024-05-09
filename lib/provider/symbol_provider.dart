@@ -17,7 +17,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_pet01,
           null,
           "assets/images/symbols/pet01.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/1.png"),
       Symbol(
           "hdpe02",
           AppLocalizations.of(context)!.symbol_title_hdpe02,
@@ -29,7 +30,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_hdpe02,
           null,
           "assets/images/symbols/hdpe02.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/2.png"),
       Symbol(
           "pvc03",
           AppLocalizations.of(context)!.symbol_title_pvc03,
@@ -41,7 +43,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_pvc03,
           null,
           "assets/images/symbols/pvc03.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/3.png"),
       Symbol(
           "ldpe04",
           AppLocalizations.of(context)!.symbol_title_ldpe04,
@@ -53,7 +56,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_ldpe04,
           null,
           "assets/images/symbols/ldpe04.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/4.png"),
       Symbol(
           "pp05",
           AppLocalizations.of(context)!.symbol_title_pp05,
@@ -65,7 +69,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_pp05,
           null,
           "assets/images/symbols/pp05.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/5.png"),
       Symbol(
           "ps06",
           AppLocalizations.of(context)!.symbol_title_ps06,
@@ -77,7 +82,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_ps06,
           null,
           "assets/images/symbols/ps06.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/6.png"),
       Symbol(
           "inne07",
           AppLocalizations.of(context)!.symbol_title_inne07,
@@ -89,7 +95,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           "assets/images/symbols/inne07.png",
-          SymbolCategory.polimers),
+          SymbolCategory.polimers,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/7.png"),
     ],
     SymbolCategory.paper: [
       Symbol(
@@ -103,7 +110,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_pap20,
           null,
           "assets/images/symbols/pap20.png",
-          SymbolCategory.paper),
+          SymbolCategory.paper,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/20.png"),
       Symbol(
           "pap21",
           AppLocalizations.of(context)!.symbol_title_pap21,
@@ -115,7 +123,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_pap21,
           "assets/images/symbols/pap21.png",
-          SymbolCategory.paper),
+          SymbolCategory.paper,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/21.png"),
       Symbol(
           "pap22",
           AppLocalizations.of(context)!.symbol_title_pap22,
@@ -127,7 +136,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_pap22,
           "assets/images/symbols/pap22.png",
-          SymbolCategory.paper),
+          SymbolCategory.paper,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/22.png"),
     ],
     SymbolCategory.glass: [
       Symbol(
@@ -141,7 +151,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl70,
           "assets/images/symbols/gl70.png",
-          SymbolCategory.glass),
+          SymbolCategory.glass,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/70.png"),
       Symbol(
           "gl71",
           AppLocalizations.of(context)!.symbol_title_gl71,
@@ -153,7 +164,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl71,
           "assets/images/symbols/gl71.png",
-          SymbolCategory.glass),
+          SymbolCategory.glass,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/71.png"),
       Symbol(
           "gl72",
           AppLocalizations.of(context)!.symbol_title_gl72,
@@ -165,7 +177,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_gl72,
           "assets/images/symbols/gl72.png",
-          SymbolCategory.glass),
+          SymbolCategory.glass,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/72.png"),
     ],
     SymbolCategory.steel: [
       Symbol(
@@ -179,7 +192,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_fe40,
           AppLocalizations.of(context)!.symbol_tooltips_alu40,
           "assets/images/symbols/fe40.png",
-          SymbolCategory.steel),
+          SymbolCategory.steel,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/40.png"),
       Symbol(
           "alu41",
           AppLocalizations.of(context)!.symbol_title_alu41,
@@ -191,7 +205,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_alu41,
           "assets/images/symbols/alu41.png",
-          SymbolCategory.steel),
+          SymbolCategory.steel,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/41.png"),
     ],
     SymbolCategory.wood: [
       Symbol(
@@ -205,7 +220,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           "assets/images/symbols/for50.png",
-          SymbolCategory.wood),
+          SymbolCategory.wood,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/50.png"),
       Symbol(
           "for51",
           AppLocalizations.of(context)!.symbol_title_for51,
@@ -217,7 +233,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           "assets/images/symbols/for51.png",
-          SymbolCategory.wood),
+          SymbolCategory.wood,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/51.png"),
     ],
     SymbolCategory.cotton: [
       Symbol(
@@ -231,7 +248,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           AppLocalizations.of(context)!.symbol_facts_tex60,
           null,
           "assets/images/symbols/tex60.png",
-          SymbolCategory.cotton),
+          SymbolCategory.cotton,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/60.png"),
       Symbol(
           "tex61",
           AppLocalizations.of(context)!.symbol_title_tex61,
@@ -243,7 +261,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           null,
           "assets/images/symbols/tex61.png",
-          SymbolCategory.cotton),
+          SymbolCategory.cotton,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/61.png"),
     ],
     SymbolCategory.mixed: [
       Symbol(
@@ -257,7 +276,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx80,
           "assets/images/symbols/cx80.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx81",
           AppLocalizations.of(context)!.symbol_title_cx81,
@@ -269,7 +289,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx81,
           "assets/images/symbols/cx81.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/81.png"),
       Symbol(
           "cx82",
           AppLocalizations.of(context)!.symbol_title_cx82,
@@ -281,7 +302,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx82,
           "assets/images/symbols/cx82.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/82.png"),
       Symbol(
           "cx83",
           AppLocalizations.of(context)!.symbol_title_cx83,
@@ -293,7 +315,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx83,
           "assets/images/symbols/cx83.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx84",
           AppLocalizations.of(context)!.symbol_title_cx84,
@@ -305,7 +328,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx84,
           "assets/images/symbols/cx84.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/84.png"),
       Symbol(
           "cx85",
           AppLocalizations.of(context)!.symbol_title_cx85,
@@ -317,7 +341,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx85,
           "assets/images/symbols/cx85.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx90",
           AppLocalizations.of(context)!.symbol_title_cx90,
@@ -329,7 +354,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx90,
           "assets/images/symbols/cx90.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          "https://wm.pollub.pl/fcp/8PREgARcJNScXKxEMUA9DAmltVyVUFDFqUVJWazkALV96cypSPhRaWXI0D1ZUShtGPlY7MRk8VhIgXFdYVmsjBzRWKw/5/public/kolo_naukowe/90.png"),
       Symbol(
           "cx91",
           AppLocalizations.of(context)!.symbol_title_cx91,
@@ -341,7 +367,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx91,
           "assets/images/symbols/cx91.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx92",
           AppLocalizations.of(context)!.symbol_title_cx92,
@@ -353,7 +380,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx92,
           "assets/images/symbols/cx92.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx95",
           AppLocalizations.of(context)!.symbol_title_cx95,
@@ -365,7 +393,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx95,
           "assets/images/symbols/cx95.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx96",
           AppLocalizations.of(context)!.symbol_title_cx96,
@@ -377,7 +406,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx96,
           "assets/images/symbols/cx96.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx97",
           AppLocalizations.of(context)!.symbol_title_cx97,
@@ -389,7 +419,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx97,
           "assets/images/symbols/cx97.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
       Symbol(
           "cx98",
           AppLocalizations.of(context)!.symbol_title_cx98,
@@ -401,7 +432,8 @@ Map<SymbolCategory, List<Symbol>> provideData(BuildContext context) {
           null,
           AppLocalizations.of(context)!.symbol_tooltips_cx98,
           "assets/images/symbols/cx98.png",
-          SymbolCategory.mixed),
+          SymbolCategory.mixed,
+          null),
     ]
   };
 }
