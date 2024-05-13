@@ -202,9 +202,9 @@ class HomeScreen extends StatelessWidget {
 
   resolveInnerNavigationPath() {
     if (pathName == 'list') {
-      return SymbolList(false);
+      return const SymbolList(false);
     } else if (pathName == 'list-search') {
-      return SymbolList(true);
+      return const SymbolList(true);
     }
       else if (pathName == 'glossary'){
       return const GlossaryScreen();

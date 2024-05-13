@@ -155,20 +155,21 @@ class SymbolDetailsScreen extends StatelessWidget {
   }
 
   @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: resolveBackgroundColor(symbol.category),
-      appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.header_symbol_details,),
-        backgroundColor: AppConfig.appBarBackground,
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 10,),
+        backgroundColor: resolveBackgroundColor(symbol.category),
+        appBar: AppBar(
+          title: Text(AppLocalizations.of(context)!.header_symbol_details),
+          backgroundColor: AppConfig.appBarBackground,
+        ),
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: SingleChildScrollView(
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                  const SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -177,7 +178,10 @@ class SymbolDetailsScreen extends StatelessWidget {
                     width: 200,
                     child: Text(
                       symbol.title,
-                      style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme
+                          .of(context)
+                          .textTheme
+                          .titleLarge,
                     ),
                   ),
                   const Spacer(),
@@ -189,30 +193,34 @@ class SymbolDetailsScreen extends StatelessWidget {
                   const Spacer(),
                 ],
               ),
-              const SizedBox(height: 20,),
+              const SizedBox(height: 20),
               buildText(context),
-              const SizedBox(height: 30,),
+              const SizedBox(height: 30),
               if (symbol.link != null)
                 RichText(
-                  textAlign: TextAlign.justify,
-                  text: TextSpan(
-                    style: TextStyle(color: AppConfig.blackText),
-                    children: [
-                      TextSpan(
-                        text: (AppLocalizations.of(context)!.symbol_picture),
-                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                      ),
-                      const TextSpan(text: " "),
-                    ],
-                  ),
+                textAlign: TextAlign.justify,
+                text: TextSpan(
+                  style: TextStyle(color: AppConfig.blackText),
+                  children: [
+                    TextSpan(
+                      text: (AppLocalizations.of(context)!.symbol_picture),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 16),
+                    ),
+                    const TextSpan(text: " "),
+                  ],
                 ),
-              const SizedBox(height: 20,),
-              if (symbol.link != null)
-                Image.network(symbol.link!),
-            ],
-          ),
+              ),
+              const SizedBox(height: 20),
+        if (symbol.link != null)
+              Image.network(
+                symbol.link!,
+                scale: 0.5,
+              ),
+    ],
+    ),
+    ),
         ),
-      ),
     );
   }
 }

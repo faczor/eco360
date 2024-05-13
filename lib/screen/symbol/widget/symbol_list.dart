@@ -4,11 +4,10 @@ import 'package:eco360/model/symbol.dart';
 import 'package:eco360/screen/symbol/widget/symbol_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:eco360/configuration/localization/app_localization.dart';
-
 import '../../../config.dart';
 
 class ListOfSymbols extends StatefulWidget {
-  const ListOfSymbols(this._searchValue, {super.key});
+  const ListOfSymbols(this._searchValue, {Key? key}) : super(key: key);
 
   final String _searchValue;
 
@@ -37,8 +36,9 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
         return AppConfig.yellow;
     }
   }
-  getText (SymbolCategory category, context){
-    switch (category){
+
+  getText(SymbolCategory category, context) {
+    switch (category) {
       case SymbolCategory.polimers:
         return AppLocalizations.of(context)!.category_polymers;
       case SymbolCategory.paper:
@@ -55,7 +55,29 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
         return AppLocalizations.of(context)!.category_mixed;
     }
   }
-  buildCategoryItem(SymbolCategory category, List<Symbol> symbols) {
+
+  Widget buildCategoryItem(SymbolCategory category, List<Symbol> symbols) {
+    if (symbols.length < 3) {
+      final emptySymbolsCount = 3 - symbols.length;
+      for (int i = 0; i < emptySymbolsCount; i++) {
+        symbols.add(Symbol(
+          '',
+          'Empty',
+          '',
+          '',
+          null,
+          null,
+          null,
+          null,
+          null,
+          'assets/images/symbols/empty.png',
+          category,
+          null,
+        ));
+      }
+    }
+
+
     return Card(
       color: getColor(category),
       child: Padding(
@@ -65,21 +87,28 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
           children: [
             Text(
               getText(category, context),
-                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Align(
-              alignment: Alignment.topLeft,
+              alignment: Alignment.topCenter,
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Wrap(
                   spacing: 20,
                   runSpacing: 20,
-                  children: symbols.map((e) =>
-                      ClipRRect(
+                  children: symbols
+                      .map((e) => e.title == 'Empty'
+                      ? Image.asset(
+                    e.assetPath,
+                    width: 100,
+                    height: 100,
+                  )
+                      : ClipRRect(
                     borderRadius: BorderRadius.circular(6.0),
                     child: SymbolListItem(e),
-                  )).toList(),
+                  ))
+                      .toList(),
                 ),
               ),
             ),
@@ -89,8 +118,7 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
     );
   }
 
-  void filterSymbols(
-      Map<SymbolCategory, List<Symbol>> symbolsGroupedByCategory) {
+  void filterSymbols(Map<SymbolCategory, List<Symbol>> symbolsGroupedByCategory) {
     if (widget._searchValue.isEmpty) {
       setState(() {
         _symbolsGroupedByCategory = symbolsGroupedByCategory;
@@ -102,9 +130,9 @@ class _ListOfSymbolsState extends State<ListOfSymbols> {
     for (var element in symbolsGroupedByCategory.entries) {
       List<Symbol> matchingSymbols = element.value
           .where((element) =>
-              equalsIgnoreCase(element.title, widget._searchValue) ||
-              equalsIgnoreCase(element.number, widget._searchValue) ||
-              equalsIgnoreCase(element.short, widget._searchValue))
+      equalsIgnoreCase(element.title, widget._searchValue) ||
+          equalsIgnoreCase(element.number, widget._searchValue) ||
+          equalsIgnoreCase(element.short, widget._searchValue))
           .toList();
 
       if (matchingSymbols.isNotEmpty) {
