@@ -410,6 +410,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get game => 'assets/images/home/game.png';
 
   @override
+  String get game_soon => 'assets/images/home/game-soon.png';
+
+  @override
   String get glossary_polymer_header => 'Polimer';
 
   @override

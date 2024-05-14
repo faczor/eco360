@@ -410,6 +410,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get game => 'assets/images/home/game-en.png';
 
   @override
+  String get game_soon => 'assets/images/home/game-soon-en.png';
+
+  @override
   String get glossary_polymer_header => 'Polymer';
 
   @override
@@ -455,7 +458,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get glossary_law => 'The markings, symbols and names were taken from the Regulation of the Minister of the Environment of September 3, 2014 on packaging labeling patterns.';
 
   @override
-  String get authors_description => 'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  ● Joanna Tomasik,\n  ● Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.';
+  String get authors_description => 'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  ● Joanna Tomasik,\n  ● Sebastian Druciak\n  together with the supervisor of the scientific club: \n  ● Dr. Eng. Aneta Tor-Świątek.';
 
   @override
   String get sm_invitation => 'Check our social media: ';

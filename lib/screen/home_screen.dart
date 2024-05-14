@@ -135,9 +135,9 @@ class HomeScreen extends StatelessWidget {
                         width: 200,
                         height: 75,
                         child: ImageCard(
-                          AppLocalizations.of(context)!.game,
+                          AppLocalizations.of(context)!.game_soon,
                           false,
-                          "https://www.onet.pl",
+                          null,
                           null,
                         ),
                       ),

@@ -903,6 +903,12 @@ abstract class AppLocalizations {
   /// **'assets/images/home/game-en.png'**
   String get game;
 
+  /// No description provided for @game_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'assets/images/home/game-soon-en.png'**
+  String get game_soon;
+
   /// No description provided for @glossary_polymer_header.
   ///
   /// In en, this message translates to:
@@ -996,7 +1002,7 @@ abstract class AppLocalizations {
   /// No description provided for @authors_description.
   ///
   /// In en, this message translates to:
-  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  ● Joanna Tomasik,\n  ● Sebastian Druciak\n  together with the supervisor of the scientific club: Dr. Eng. Aneta Tor-Świątek.'**
+  /// **'The application was developed as part of the activities of the CARBON Polymer Engineering Scientific Club operating at the Department of Technology and Processing of Polymer Plastics at the Faculty of Mechanical Engineering of the Lublin University of Technology. \n\n  The authors of the application are:\n  ● Joanna Tomasik,\n  ● Sebastian Druciak\n  together with the supervisor of the scientific club: \n  ● Dr. Eng. Aneta Tor-Świątek.'**
   String get authors_description;
 
   /// No description provided for @sm_invitation.
