@@ -350,10 +350,10 @@ class AppLocalizationsPl extends AppLocalizations {
   String get symbol_tooltips_gl72 => 'pamiętaj, że do zielonego pojemnika na szkło możesz wrzucić szklane opakowania po żywności oraz kosmetykach, których opakowania nie są trwałe połączone z innym materiałem. Do pojemników na szkło nie możesz wrzucać opakowań zmieszanych, ceramiki, szkła żaroodpornego, żarówek, luster, szyb, termometrów oraz opakowań po lekach, olejach, chemikaliach, substancjach niebezpiecznych.';
 
   @override
-  String get symbol_tooltips_alu40 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.';
+  String get symbol_tooltips_alu40 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i resztki jedzenia. Pamiętaj, że igły, puszki po materiałach budowlanych, chemicznych i niebezpiecznych nie nadają się do recyklingu.';
 
   @override
-  String get symbol_tooltips_alu41 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i reszty jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.';
+  String get symbol_tooltips_alu41 => 'przed wrzuceniem opakowania wykonanego ze stali do żółtego pojemnika usuń etykiety i resztki jedzenia. Pamiętaj, że puszki po materiałach budowlanych, chemicznych, niebezpiecznych nie nadają się do recyklingu.';
 
   @override
   String get symbol_tooltips_cx80 => 'opakowania oznaczone tym symbolem możemy wyrzucić do żółtego pojemnika. Przed wyrzuceniem nie musisz dokładnie myć opakowań, jedynie usuń resztki jedzenia.';

@@ -79,7 +79,6 @@
   "symbol_description_cx84": "packaging marked with this symbol is made of plastic-coated paper and aluminum. These are packages of juices, milk, butter, chocolate, chewing gum, etc.",
   "symbol_description_cx90": "packaging marked with this symbol is made of aluminum-coated plastic.",
 
-
   "symbol_properties_pet01": "thermoplastic, heavier than water, hard, stiff, chemically and thermally resistant, does not absorb water, dielectric (does not conduct electricity), non-toxic, non-biodegradable, but biocompatible, i.e. does not cause allergic reactions, transparent, recyclable.",
   "symbol_properties_hdpe02": "thermoplastic, lighter than water, hard, stiff, non-toxic, cheap, milky white color, resistant to low temperatures, difficult to glue and decorate, recyclable..",
   "symbol_properties_pvc03": "thermoplastic, heavier than water, white powder, chemically resistant, degrades already at 170ºC and is then toxic, durable, can be flexible and malleable or hard and brittle depending on the method of production, recyclable.",
@@ -88,7 +87,6 @@
   "symbol_properties_ps06": "thermoplastic, safe, non-toxic, non-biodegradable with high biocompatibility, colorless, hard and brittle, heavier than water, recyclable, dyes can be used.",
   "symbol_properties_pap20": "biodegradable and safe, can come into contact with food products.",
   "symbol_properties_pap21": "biodegradable and safe, can come into contact with food products, in the following colors: white, gray or brown, can be covered with print or laminated with PE or PP foil.",
-
 
   "symbol_usage_pet01": "\n ● medicine (prosthetic bones of the skull vault, blood vessel prostheses, surgical markers for supporting organs prepared during surgery, ligament and tendon prostheses, elements of the body of an artificial heart), \n ● packaging (e.g. water bottles) , yogurt cups, foils, trays), \n ● textiles (carpet yarn, textile fibers, insulating fibers, fleece), \n ● construction (thermal insulation boards, building boards).",
   "symbol_usage_hdpe02": "pressure pipes, pipe fittings, laboratory vessels, containers, bottles, plates, packaging.",

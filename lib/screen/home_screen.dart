@@ -76,6 +76,20 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                     ),
+                    IconButton(
+                      onPressed: () {
+                        changeLanguage(const Locale('de'));
+                      },
+                      icon: ClipRRect(
+                        borderRadius: BorderRadius.circular(5.0),
+                        child: Image.asset(
+                          "assets/images/flags/flag-de.png",
+                          height: 35,
+                          width: 45,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
                 const Spacer(),
